@@ -1,0 +1,8 @@
+# Python
+.venv/
+__pycache__/
+
+# nikola output
+cache/
+output/
+.doit.db.*
