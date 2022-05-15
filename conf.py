@@ -143,6 +143,10 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ('/publications/', 'Publications'),
+        ('https://scholar.google.com/citations?&user=bcgJ5XsAAAAJ', 'Google Scholar'),
+        ('https://orcid.org/0000-0002-9437-7698', 'ORCiD'),
+        ('https://www.linkedin.com/in/petar-mlinaric/', 'LinkedIn'),
+        ('https://github.com/pmli', 'GitHub'),
     ),
 }
 
