@@ -18,6 +18,10 @@ at the
 [Max Planck Institute for Dynamics of Complex Technical Systems](https://www.mpi-magdeburg.mpg.de/2316/en)
 in Magdeburg, Germany.
 
+# Contact Info
+
+My work email is: mlinaric *at* vt *dot* edu.
+
 # My Name
 
 As a Croatian with a Croatian name, my name can pose challenges for non-Croats.
