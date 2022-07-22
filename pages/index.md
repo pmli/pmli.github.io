@@ -2,7 +2,7 @@
 .. title: Welcome
 .. slug: index
 .. date:
-.. tags: 
+.. tags: Petar Mlinarić Mlinaric
 .. category: 
 .. link: 
 .. description: 
