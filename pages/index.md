@@ -9,6 +9,12 @@
 .. type: text
 -->
 
+<img
+  align="right"
+  width=20%
+  src="images/profile.jpeg"
+  alt="Petar Mlinarić profile picture">
+
 I'm a postdoc at the
 [Department of Mathematics](https://math.vt.edu/) at
 [Virginia Tech](https://vt.edu/).
