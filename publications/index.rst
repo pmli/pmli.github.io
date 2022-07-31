@@ -10,7 +10,7 @@
 Preprints
 ---------
 
-.. publication_list:: files/preprints.bib
+.. publication_list:: files/bib/preprints.bib
    :bibtex_dir: bibtex
    :detail_page_dir:
    :style: unsrt
@@ -19,7 +19,7 @@ Preprints
 Journal Publications
 --------------------
 
-.. publication_list:: files/journal.bib
+.. publication_list:: files/bib/journal.bib
    :bibtex_dir: bibtex
    :detail_page_dir:
    :style: unsrt
@@ -28,7 +28,7 @@ Journal Publications
 Conference Proceedings
 ----------------------
 
-.. publication_list:: files/conference.bib
+.. publication_list:: files/bib/conference.bib
    :bibtex_dir: bibtex
    :detail_page_dir:
    :style: unsrt
@@ -37,7 +37,7 @@ Conference Proceedings
 Book Chapters
 -------------
 
-.. publication_list:: files/book_chapters.bib
+.. publication_list:: files/bib/book_chapters.bib
    :bibtex_dir: bibtex
    :detail_page_dir:
    :style: unsrt
@@ -46,7 +46,7 @@ Book Chapters
 Thesis
 ------
 
-.. publication_list:: files/theses.bib
+.. publication_list:: files/bib/theses.bib
    :bibtex_dir: bibtex
    :detail_page_dir:
    :style: unsrt
