@@ -15,14 +15,15 @@
   src="images/profile.jpeg"
   alt="Petar Mlinarić profile picture">
 
-I'm a postdoc at the
+I am a postdoc at the
 [Department of Mathematics](https://math.vt.edu/) at
 [Virginia Tech](https://vt.edu/).
 Previously, I was a postdoc and a PhD student in the
-[Computational Methods in Systems and Control Theory research group](https://www.mpi-magdeburg.mpg.de/csc)
-at the
-[Max Planck Institute for Dynamics of Complex Technical Systems](https://www.mpi-magdeburg.mpg.de/2316/en)
-in Magdeburg, Germany.
+[CSC group](https://www.mpi-magdeburg.mpg.de/csc) at
+[MPI Magdeburg](https://www.mpi-magdeburg.mpg.de/2316/en).
+My research is in the area of
+[model order reduction](http://modelreduction.org),
+and I am one of the core developers of [pyMOR](https://pymor.org).
 
 # Contact Info
 
