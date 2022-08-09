@@ -3,9 +3,9 @@
 .. slug: index
 .. date:
 .. tags: Petar Mlinarić Mlinaric
-.. category: 
-.. link: 
-.. description: 
+.. category:
+.. link:
+.. description:
 .. type: text
 -->
 
@@ -33,8 +33,6 @@ My work email is: mlinaric *at* vt *dot* edu.
 
 As a Croatian with a Croatian name, my name can pose challenges for non-Croats.
 
-## Pronunciation
-
 The Croatian language is (mostly) phonetic, i.e.,
 every letter corresponds to exactly one sound.
 The trouble is that the sounds are not exactly the same as in English or German
@@ -42,10 +40,7 @@ The trouble is that the sounds are not exactly the same as in English or German
 which are typically not written).
 [Google Translate](https://translate.google.com/?sl=hr&tl=en&text=Petar%20Mlinari%C4%87&op=translate)
 does a decent job, though quite robotic.
-
 Usually, I go by "Peter" in English or German-speaking countries.
-
-## Spelling
 
 Officially, the last letter in my last name is "ć"
 (LaTeX: `\'c`).
