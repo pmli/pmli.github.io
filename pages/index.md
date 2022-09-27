@@ -29,6 +29,13 @@ and I am one of the core developers of [pyMOR](https://pymor.org).
 
 My work email is: mlinaric *at* vt *dot* edu.
 
+# Public Profiles
+
+- [Google Scholar](https://scholar.google.com/citations?&user=bcgJ5XsAAAAJ)
+- [ORCiD](https://orcid.org/0000-0002-9437-7698)
+- [LinkedIn](https://www.linkedin.com/in/petar-mlinaric/)
+- [GitHub](https://github.com/pmli)
+
 # My Name
 
 As a Croatian with a Croatian name, my name can pose challenges for non-Croats.
