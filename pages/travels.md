@@ -13,6 +13,9 @@
 
 ## 2022
 
+- [**5th Annual Meeting of the SIAM Texas-Louisiana Section (SIAM TXLA22)**](https://www.math.uh.edu/siamtxla22/)
+    - November 4-6, 2022, Houston, Texas
+    - *Least-squares Parametric Reduced-order Modeling*
 - [**Model Reduction and Surrogate Modeling (MORE)**](https://more.sciencesconf.org/)
     - September 19-23, 2022, Berlin, Germany
     - *Structured \\(\mathcal{L}_2\\)-Optimal Parametric Model Order Reduction*
