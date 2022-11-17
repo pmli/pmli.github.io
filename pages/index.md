@@ -31,11 +31,11 @@ My work email is: mlinaric *at* vt *dot* edu.
 
 # Public Profiles
 
+- [GitHub](https://github.com/pmli)
 - [Google Scholar](https://scholar.google.com/citations?&user=bcgJ5XsAAAAJ)
+- [LinkedIn](https://www.linkedin.com/in/petar-mlinaric/)
 - [ORCiD](https://orcid.org/0000-0002-9437-7698)
 - [ResearchGate](https://www.researchgate.net/profile/Petar-Mlinaric)
-- [LinkedIn](https://www.linkedin.com/in/petar-mlinaric/)
-- [GitHub](https://github.com/pmli)
 
 # My Name
 
