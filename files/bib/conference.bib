@@ -1,74 +1,142 @@
 @Article{BalMRetal19,
-  author =       {Balicki, Linus and Mlinarić, Petar and Rave, Stephan and Saak,
-                  Jens},
-  title =        {System-theoretic model order reduction with {pyMOR}},
-  journal =      {Proc. Appl. Math. Mech.},
-  volume =       19,
-  number =       1,
-  year =         2019,
-  doi =          {10.1002/pamm.201900459},
+  author =       "Linus Balicki and Petar Mlinarić and Stephan Rave and Jens
+                 Saak",
+  title =        "System-theoretic model order reduction with {pyMOR}",
+  journal =      "Proc. Appl. Math. Mech.",
+  year =         "2019",
+  month =        nov,
+  volume =       "19",
+  number =       "1",
+  doi =          "10.1002/pamm.201900459",
+  abstract =     "This paper shows recent developments in pyMOR, in particular
+                 the addition of system-theoretic methods. All methods are
+                 implemented using pyMOR's abstract interfaces, which allows the
+                 application to partial differential equation (PDE) models
+                 implemented with third-party libraries. We demonstrate this by
+                 applying balanced truncation to a PDE model discretized in
+                 FEniCS.",
 }
 
 @Article{BenGM16,
-  author =       {Benner, Peter and Grundel, Sara and Mlinarić, Petar},
-  title =        {Stability preserving model reduction for linearly coupled
-                  linear time-invariant systems},
-  journal =      {Proc. Appl. Math. Mech.},
-  year =         2016,
-  volume =       16,
-  number =       1,
-  pages =        {817--818},
-  doi =          {10.1002/pamm.201610397},
+  author =       "Peter Benner and Sara Grundel and Petar Mlinarić",
+  title =        "Stability preserving model reduction for linearly coupled
+                 linear time-invariant systems",
+  journal =      "Proc. Appl. Math. Mech.",
+  year =         "2016",
+  month =        oct,
+  volume =       "16",
+  number =       "1",
+  pages =        "817--818",
+  doi =          "10.1002/pamm.201610397",
+  abstract =     "We develop a stability preserving model reduction method for
+                 linearly coupled linear time-invariant (LTI) systems. The
+                 method extends the work of Monshizadeh et al. for multi-agent
+                 systems with identical LTI agents. They propose using Bounded
+                 Real Balanced Truncation to preserve a sufficient condition for
+                 stability of the coupled system. Here, we extend this idea to
+                 arbitrary linearly coupled LTI systems using the sufficient
+                 condition for stability introduced by Reis and Stykel. The
+                 model reduction error bounds for this method also follow from
+                 results of Reis and Stykel, which allows the adaptive choice of
+                 reduced orders. We demonstrate the method on Reis's and
+                 Stykel's coupled string-beam example.",
 }
 
 @Article{HunMS18,
-  author =       {Hund, Manuela and Mlinarić, Petar and Saak, Jens},
-  title =        {An {\(\mathcal H_2 \otimes \mathcal L_2\)}-Optimal Model Order
-                  Reduction Approach for Parametric Linear Time-Invariant
-                  Systems},
-  journal =      {Proc. Appl. Math. Mech.},
-  volume =       18,
-  number =       1,
-  year =         2018,
-  doi =          {10.1002/pamm.201800084},
-  fulltext =     {/pdf/HunMS18.pdf},
+  author =       "Manuela Hund and Petar Mlinarić and Jens Saak",
+  title =        "An {\(\mathcal H_2 \otimes \mathcal L_2\)}-Optimal Model Order
+                 Reduction Approach for Parametric Linear Time-Invariant
+                 Systems",
+  journal =      "Proc. Appl. Math. Mech.",
+  year =         "2018",
+  month =        dec,
+  volume =       "18",
+  number =       "1",
+  doi =          "10.1002/pamm.201800084",
+  abstract =     "So far, {\(\mathcal H_2 \otimes \mathcal L_2\)}-optimal model
+                 order reduction (MOR) of linear time-invariant systems,
+                 preserving the affine parameter dependence, was only considered
+                 for special cases by Baur et al in 2011. In this contribution,
+                 we present necessary conditions for an {\(\mathcal H_2 \otimes
+                 \mathcal L_2\)}-optimal parametric reduced order model, for
+                 general affine parametric systems resembling the special case
+                 investigated by Baur et al.",
+  fulltext =     "/pdf/HunMS18.pdf",
 }
 
 @InProceedings{MliGB15,
-  author =       {Mlinarić, Petar and Grundel, Sara and Benner, Peter},
-  title =        {Efficient model order reduction for multi-agent systems using
-                  {QR} decomposition-based clustering},
-  booktitle =    {54th IEEE Conference on Decision and Control (CDC)},
-  year =         2015,
-  pages =        {4794--4799},
-  address =      {Osaka, Japan},
+  author =       "Petar Mlinarić and Sara Grundel and Peter Benner",
+  title =        "Efficient model order reduction for multi-agent systems using
+                 {QR} decomposition-based clustering",
+  booktitle =    "54th IEEE Conference on Decision and Control (CDC)",
+  address =      "Osaka, Japan",
+  year =         "2015",
   month =        dec,
-  doi =          {10.1109/CDC.2015.7402967},
-  fulltext =     {/pdf/MliGB15.pdf},
+  pages =        "4794--4799",
+  doi =          "10.1109/CDC.2015.7402967",
+  abstract =     "In this paper we present an efficient model order reduction
+                 method for multi-agent systems with Laplacian-based dynamics.
+                 The method combines an established model order reduction method
+                 and a clustering algorithm to produce a graph partition used
+                 for reduction, thus preserving structure and consensus. By the
+                 Iterative Rational Krylov Algorithm, a good reduced order model
+                 can be found which is not necessarily structure preserving.
+                 However, based on this we can efficiently find a partition
+                 using the QR decomposition with column pivoting as a clustering
+                 algorithm, so that the structure can be restored. We illustrate
+                 the effectiveness on an example from the open literature.",
+  fulltext =     "/pdf/MliGB15.pdf",
 }
 
 @InProceedings{MliGB16,
-  author =       {Mlinarić, Petar and Grundel, Sara and Benner, Peter},
-  title =        {Clustering-Based Model Order Reduction for Multi-Agent Systems
-                  with General Linear Time-Invariant Agents},
-  booktitle =    {22nd International Symposium on Mathematical Theory of
-                  Networks and Systems (MTNS)},
-  year =         2016,
-  pages =        {230--235},
-  address =      {Minneapolis, MN, USA},
-  url =          {http://hdl.handle.net/11299/181518},
-  fulltext =     {/pdf/MliGB16.pdf},
+  author =       "Petar Mlinarić and Sara Grundel and Peter Benner",
+  title =        "Clustering-Based Model Order Reduction for Multi-Agent Systems
+                 with General Linear Time-Invariant Agents",
+  booktitle =    "22nd International Symposium on Mathematical Theory of
+                 Networks and Systems (MTNS)",
+  address =      "Minneapolis, MN, USA",
+  year =         "2016",
+  month =        jul,
+  pages =        "230--235",
+  URL =          "http://hdl.handle.net/11299/181518",
+  abstract =     "In this paper, we extend our clustering-based model order
+                 reduction method for multi-agent systems with single-integrator
+                 agents to the case where the agents have identical general
+                 linear time-invariant dynamics. The method consists of the
+                 Iterative Rational Krylov Algorithm, for finding a good reduced
+                 order model, and the QR decomposition-based clustering
+                 algorithm, to achieve structure preservation by clustering
+                 agents. Compared to the case of single-integrator agents, we
+                 modified the QR decomposition with column pivoting inside the
+                 clustering algorithm to take into account the block-column
+                 structure. We illustrate the method on small and large-scale
+                 examples.",
+  fulltext =     "/pdf/MliGB16.pdf",
 }
 
 @InProceedings{MliICetal18,
-  author =       {Mlinarić, Petar and Ishizaki, Takayuki and Chakrabortty,
-                  Aranya and Grundel, Sara and Benner, Peter and Imura,
-                  Jun-ichi},
-  title =        {Synchronization and Aggregation of Nonlinear Power Systems
-                  with Consideration of Bus Network Structures},
-  booktitle =    {European Control Conference (ECC)},
-  year =         2018,
-  pages =        {2266--2271},
-  doi =          {10.23919/ECC.2018.8550528},
-  fulltext =     {https://doi.org/10.48550/arXiv.1803.00439},
+  author =       "Petar Mlinarić and Takayuki Ishizaki and Aranya Chakrabortty
+                 and Sara Grundel and Peter Benner and Jun-ichi Imura",
+  title =        "Synchronization and Aggregation of Nonlinear Power Systems
+                 with Consideration of Bus Network Structures",
+  booktitle =    "European Control Conference (ECC)",
+  year =         "2018",
+  month =        nov,
+  pages =        "2266--2271",
+  doi =          "10.23919/ECC.2018.8550528",
+  abstract =     "We study nonlinear power systems consisting of generators,
+                 generator buses, and non-generator buses. First, looking at a
+                 generator and its bus' variables jointly, we introduce a
+                 synchronization concept for a pair of such joint generators and
+                 buses. We show that this concept is related to graph symmetry.
+                 Next, we extend, in two ways, the synchronization from a pair
+                 to a partition of all generators in the networks and show that
+                 they are related to either graph symmetry or equitable
+                 partitions. Finally, we show how an exact reduced model can be
+                 obtained by aggregating the generators and associated buses in
+                 the network when the original system is synchronized with
+                 respect to a partition, provided that the initial condition
+                 respects the partition. Additionally, the aggregation-based
+                 reduced model is again a power system.",
+  fulltext =     "https://doi.org/10.48550/arXiv.1803.00439",
 }
