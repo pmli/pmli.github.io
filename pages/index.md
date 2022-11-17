@@ -34,8 +34,10 @@ My work email is: mlinaric *at* vt *dot* edu.
 - [GitHub](https://github.com/pmli)
 - [Google Scholar](https://scholar.google.com/citations?&user=bcgJ5XsAAAAJ)
 - [LinkedIn](https://www.linkedin.com/in/petar-mlinaric/)
+- <a rel="me" href="https://fosstodon.org/@pmli">Mastodon</a>
 - [ORCiD](https://orcid.org/0000-0002-9437-7698)
 - [ResearchGate](https://www.researchgate.net/profile/Petar-Mlinaric)
+- [Twitter](https://twitter.com/PetarMlinaric)
 
 # My Name
 
