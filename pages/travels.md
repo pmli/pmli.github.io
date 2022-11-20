@@ -14,12 +14,12 @@
 ## 2022
 
 - [**5th Annual Meeting of the SIAM Texas-Louisiana Section (SIAM TXLA22)**](https://www.math.uh.edu/siamtxla22/)
-    - November 4-6, 2022, Houston, Texas
+    - November 4-6, 2022, Houston, TX, USA
     - *Least-squares Parametric Reduced-order Modeling*
 - [**Model Reduction and Surrogate Modeling (MORE)**](https://more.sciencesconf.org/)
     - September 19-23, 2022, Berlin, Germany
     - *Structured \\(\mathcal{L}_2\\)-Optimal Parametric Model Order Reduction*
-- [**11th Conference on Applied Mathematics and Scientific Computing**](https://applmath.math.pmf.unizg.hr/2022/#/)
+- [**11th Conference on Applied Mathematics and Scientific Computing (ApplMath22)**](https://applmath.math.pmf.unizg.hr/2022/#/)
     - September 5-9, 2022, Brijuni, Croatia
     - *Iterative Rational Krylov Algorithm and Riemannian Optimization*
 - [**EuroSciPy 2022**](https://www.euroscipy.org/2022/)
