@@ -13,10 +13,10 @@
 
 ## 2023
 
-- [**SIAM Southeastern Atlantic Section Annual Meeting**](https://conference.math.vt.edu/vt-siam-seas/index.html),
+- [**SIAM Southeastern Atlantic Section Annual Meeting**](https://conference.math.vt.edu/vt-siam-seas/index.html)
     - Mar 25-26 2023, Blacksburg, VA, USA
     - *\\(\mathcal{L}_2\\)-optimal Reduced-order Modeling of Parametric Stationary Problems*
-- [**SIAM Conference on Computational Science and Engineering (CSE23)**](https://www.siam.org/conferences/cm/conference/cse23),
+- [**SIAM Conference on Computational Science and Engineering (CSE23)**](https://www.siam.org/conferences/cm/conference/cse23)
     - Feb 26 - Mar 3 2023, Amsterdam, The Netherlands
     - *Least-squares Parametric Reduced-order Modeling*
 
