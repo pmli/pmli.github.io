@@ -13,6 +13,10 @@
 
 ## 2023
 
+- [**Nonlinear Model Reduction for Control**](https://personal.math.vt.edu/borggajt/nlromc/index.html)
+    - May 22-26 2023, Blacksburg, VA, USA
+    - *\\(\mathcal{H}_2 \otimes \mathcal{L}_2\\)-optimal Model Order Reduction
+      for Quadratic-bilinear Systems*
 - [**SIAM Southeastern Atlantic Section Annual Meeting**](https://conference.math.vt.edu/vt-siam-seas/index.html)
     - Mar 25-26 2023, Blacksburg, VA, USA
     - *\\(\mathcal{L}_2\\)-optimal Reduced-order Modeling of Parametric Stationary Problems*
