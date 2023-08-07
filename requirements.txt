@@ -150,6 +150,8 @@ jupyterlab-server==2.24.0
     # via
     #   jupyterlab
     #   notebook
+latexcodec==2.0.1
+    # via pybtex
 lxml==4.9.3
     # via nikola
 mako==1.2.4
@@ -231,6 +233,8 @@ ptyprocess==0.7.0
     #   terminado
 pure-eval==0.2.2
     # via stack-data
+pybtex==0.24.0
+    # via -r requirements.in
 pycparser==2.21
     # via cffi
 pygal==3.0.0
@@ -253,7 +257,9 @@ python-dateutil==2.8.2
 python-json-logger==2.0.7
     # via jupyter-events
 pyyaml==6.0.1
-    # via jupyter-events
+    # via
+    #   jupyter-events
+    #   pybtex
 pyzmq==25.1.0
     # via
     #   ipykernel
@@ -291,6 +297,8 @@ six==1.16.0
     #   asttokens
     #   bleach
     #   html5lib
+    #   latexcodec
+    #   pybtex
     #   python-dateutil
     #   rfc3339-validator
 smartypants==2.0.1

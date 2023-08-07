@@ -1,1 +1,2 @@
 Nikola[extras]==8.2.4
+pybtex>=0.21
