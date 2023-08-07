@@ -13,6 +13,9 @@
 
 ## 2023
 
+- [**25th Conference of the International Linear Algebra Society (ILAS 2023)**](https://ilas2023.es/)
+    - Jun 12-16, 2023, Madrid, Spain
+    - *Optimal reduced-order modeling for structured linear systems*
 - [**Nonlinear Model Reduction for Control**](https://personal.math.vt.edu/borggajt/nlromc/index.html)
     - May 22-26 2023, Blacksburg, VA, USA
     - *\\(\mathcal{H}_2 \otimes \mathcal{L}_2\\)-optimal Model Order Reduction
