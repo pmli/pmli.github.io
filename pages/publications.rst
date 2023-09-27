@@ -7,14 +7,15 @@
 .. description:
 .. type: text
 
-Preprints
----------
+..
+   Preprints
+   ---------
 
-.. publication_list:: files/bib/preprints.bib
-   :bibtex_dir: bibtex
-   :detail_page_dir:
-   :style: unsrt
-   :highlight_author: Petar Mlinarić
+   .. publication_list:: files/bib/preprints.bib
+      :bibtex_dir: bibtex
+      :detail_page_dir:
+      :style: unsrt
+      :highlight_author: Petar Mlinarić
 
 Journal Publications
 --------------------
