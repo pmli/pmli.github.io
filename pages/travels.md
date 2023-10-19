@@ -13,18 +13,21 @@
 
 ## 2023
 
+- [**European Conference on Numerical Mathematics and Advanced Applications (ENUMATH 2023)**](https://enumath2023.com/)
+    - September 4-8, 2023, Lisbon, Portugal
+    - *Parametric Reduced-order Modeling via Nonlinear Least Squares*
 - [**25th Conference of the International Linear Algebra Society (ILAS 2023)**](https://ilas2023.es/)
-    - Jun 12-16, 2023, Madrid, Spain
+    - June 12-16, 2023, Madrid, Spain
     - *Optimal reduced-order modeling for structured linear systems*
 - [**Nonlinear Model Reduction for Control**](https://personal.math.vt.edu/borggajt/nlromc/index.html)
     - May 22-26 2023, Blacksburg, VA, USA
     - *\\(\mathcal{H}_2 \otimes \mathcal{L}_2\\)-optimal Model Order Reduction
       for Quadratic-bilinear Systems*
 - [**SIAM Southeastern Atlantic Section Annual Meeting**](https://conference.math.vt.edu/vt-siam-seas/index.html)
-    - Mar 25-26 2023, Blacksburg, VA, USA
+    - March 25-26 2023, Blacksburg, VA, USA
     - *\\(\mathcal{L}_2\\)-optimal Reduced-order Modeling of Parametric Stationary Problems*
 - [**SIAM Conference on Computational Science and Engineering (CSE23)**](https://www.siam.org/conferences/cm/conference/cse23)
-    - Feb 26 - Mar 3 2023, Amsterdam, The Netherlands
+    - February 26 - Mar 3 2023, Amsterdam, The Netherlands
     - *Least-squares Parametric Reduced-order Modeling*
 
 ## 2022
@@ -173,6 +176,8 @@
 
 # Schools
 
+- [**pyMOR School 2023**](https://2023.school.pymor.org/)
+    - September 18-22, 2023, Berlin, Germany
 - [**pyMOR School 2022**](https://2022.school.pymor.org/)
     - August 22-26, 2022, Magdeburg, Germany
 - [**pyMOR School 2021**](https://2021.school.pymor.org/)
