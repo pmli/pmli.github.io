@@ -1,0 +1,12 @@
+---
+# Markdown linter rules
+# linter rules doc: https://github.com/DavidAnson/markdownlint
+heading-style:
+  style: atx
+ul-indent:
+  indent: 4
+no-inline-html:
+  allowed_elements: [a, img]
+no-bare-urls: false
+fenced-code-language: false
+first-line-h1: false

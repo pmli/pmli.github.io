@@ -1,4 +1,4 @@
 Nikola[extras]==8.2.4
 pip-tools
-pybtex>=0.21
 pre-commit
+pybtex>=0.21
