@@ -13,7 +13,8 @@
 
 ## 2023
 
-- [**European Conference on Numerical Mathematics and Advanced Applications (ENUMATH 2023)**](https://enumath2023.com/)
+- [**European Conference on Numerical Mathematics and Advanced Applications
+  (ENUMATH 2023)**](https://enumath2023.com/)
     - September 4-8, 2023, Lisbon, Portugal
     - *Parametric Reduced-order Modeling via Nonlinear Least Squares*
 - [**25th Conference of the International Linear Algebra Society (ILAS 2023)**](https://ilas2023.es/)
@@ -25,7 +26,8 @@
       for Quadratic-bilinear Systems*
 - [**SIAM Southeastern Atlantic Section Annual Meeting**](https://conference.math.vt.edu/vt-siam-seas/index.html)
     - March 25-26 2023, Blacksburg, VA, USA
-    - *\\(\mathcal{L}_2\\)-optimal Reduced-order Modeling of Parametric Stationary Problems*
+    - *\\(\mathcal{L}_2\\)-optimal Reduced-order Modeling of Parametric
+      Stationary Problems*
 - [**SIAM Conference on Computational Science and Engineering (CSE23)**](https://www.siam.org/conferences/cm/conference/cse23)
     - February 26 - Mar 3 2023, Amsterdam, The Netherlands
     - *Least-squares Parametric Reduced-order Modeling*
@@ -134,7 +136,8 @@
 - [**Workshop on Model Reduction Methods and Optimization**](https://www.mathos.unios.hr/index.php/443)
     - September 20-21, 2016, Opatija, Croatia
     - *Almost Almost-Equitableness and Clustering-Based Error Bounds*
-- [**22nd International Symposium on Mathematical Theory of Networks and Systems (MTNS)**](https://sites.google.com/a/umn.edu/mtns-2016/)
+- [**22nd International Symposium on Mathematical Theory of Networks and Systems
+  (MTNS)**](https://sites.google.com/a/umn.edu/mtns-2016/)
     - July 12-15, 2016, Minneapolis, MN, USA
     - *Clustering-Based Model Order Reduction for Multi-Agent Systems with
       General Linear Time-Invariant Agents*
@@ -184,7 +187,8 @@
     - October 4-8, 2021, Münster, Germany
 - [**pyMOR Online Course 2020**](https://2020.school.pymor.org/)
     - September 28 - October 2, 2020, virtual
-- [**Learning Models from Data: Model Reduction, System Identification and Machine Learning**](https://www.mpi-magdeburg.mpg.de/csc/events/samm20)
+- [**Learning Models from Data: Model Reduction, System Identification and
+  Machine Learning**](https://www.mpi-magdeburg.mpg.de/csc/events/samm20)
     - July 27-31, 2020, virtual
 - [**pyMOR School 2019**](https://2019.school.pymor.org/)
     - October 7-11, 2019, Magdeburg, Germany
