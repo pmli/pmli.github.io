@@ -12,7 +12,7 @@
 <img
   align="right"
   width=20%
-  src="images/profile.jpeg"
+  src="images/mlinaric.jpg"
   alt="Petar Mlinarić profile picture">
 
 I am a postdoc at the
