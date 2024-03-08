@@ -37,7 +37,11 @@ My work email is: mlinaric *at* vt *dot* edu.
 - <a rel="me" href="https://fosstodon.org/@pmli">Mastodon</a>
 - [ORCiD](https://orcid.org/0000-0002-9437-7698)
 - [ResearchGate](https://www.researchgate.net/profile/Petar-Mlinaric)
-- [Twitter](https://twitter.com/PetarMlinaric)
+- [X/Twitter](https://twitter.com/PetarMlinaric)
+
+# Curriculum Vitae
+
+Available here: [CV](/pdf/mlinaric_cv.pdf)
 
 # My Name
 
@@ -49,7 +53,7 @@ The trouble is that the sounds are not exactly the same as in English or German
 (also, there are [accents](https://hr.wikipedia.org/wiki/Naglasak),
 which are typically not written).
 [Google Translate](https://translate.google.com/?sl=hr&tl=en&text=Petar%20Mlinari%C4%87&op=translate)
-does a decent job, though quite robotic.
+does a decent job.
 Usually, I go by "Peter" in English or German-speaking countries.
 
 Officially, the last letter in my last name is "ć"
