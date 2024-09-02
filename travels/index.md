@@ -11,6 +11,16 @@
 
 # Conferences
 
+## 2024
+
+- [**Model Reduction and Surrogate Modeling (MORe2024)**](https://more2024.sciencesconf.org/)
+    - September 9-13, San Diego, CA, US
+    - *Riemannian Optimization of the Manifold of Rational Functions*
+- [**26th International Symposium on Mathematical Theory of Networks and Systems
+  (MTNS 2024)**](https://mtns2024.eng.cam.ac.uk/)
+    - August 19-23, 2024, Cambridge, UK
+    - *TF-IRKA Is Also a Riemannian gradient descent method*
+
 ## 2023
 
 - [**European Conference on Numerical Mathematics and Advanced Applications
@@ -179,6 +189,8 @@
 
 # Schools
 
+- [**pyMOR School and User Meeting 2024**](https://2024.school.pymor.org/)
+    - August 26-30, 2024, Münster, Germany
 - [**pyMOR School 2023**](https://2023.school.pymor.org/)
     - September 18-22, 2023, Berlin, Germany
 - [**pyMOR School 2022**](https://2022.school.pymor.org/)
