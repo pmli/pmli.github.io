@@ -19,7 +19,7 @@
 - [**26th International Symposium on Mathematical Theory of Networks and Systems
   (MTNS 2024)**](https://mtns2024.eng.cam.ac.uk/)
     - August 19-23, 2024, Cambridge, UK
-    - *TF-IRKA Is Also a Riemannian gradient descent method*
+    - *TF-IRKA Is Also a Riemannian Gradient Descent Method*
 
 ## 2023
 
