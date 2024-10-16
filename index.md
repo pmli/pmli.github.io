@@ -23,7 +23,7 @@ Previously, I was a postdoc and a PhD student in the
 [MPI Magdeburg](https://www.mpi-magdeburg.mpg.de/2316/en).
 My research is in the area of
 [model order reduction](http://modelreduction.org),
-and I am one of the core developers of [pyMOR](https://pymor.org).
+and I am one of the main developers of [pyMOR](https://pymor.org).
 
 # Contact Info
 
