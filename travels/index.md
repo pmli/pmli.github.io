@@ -15,11 +15,11 @@
 
 - [**Model Reduction and Surrogate Modeling (MORe2024)**](https://more2024.sciencesconf.org/)
     - September 9-13, San Diego, CA, US
-    - *Riemannian Optimization of the Manifold of Rational Functions*
+    - *Riemannian Optimization over the Manifold of Rational Functions*
 - [**26th International Symposium on Mathematical Theory of Networks and Systems
   (MTNS 2024)**](https://mtns2024.eng.cam.ac.uk/)
     - August 19-23, 2024, Cambridge, UK
-    - *TF-IRKA Is Also a Riemannian Gradient Descent Method*
+    - *TF-IRKA is also a Riemannian Gradient Descent Method*
 
 ## 2023
 
