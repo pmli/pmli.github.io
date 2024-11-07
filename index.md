@@ -42,20 +42,3 @@ My work email is: mlinaric *at* vt *dot* edu.
 # Curriculum Vitae
 
 Available here: [CV](/pdf/mlinaric_cv.pdf)
-
-# My Name
-
-As a Croatian with a Croatian name, my name can pose challenges for non-Croats.
-
-The Croatian language is (mostly) phonetic, i.e.,
-every letter corresponds to exactly one sound.
-The trouble is that the sounds are not exactly the same as in English or German
-(also, there are [accents](https://hr.wikipedia.org/wiki/Naglasak),
-which are typically not written).
-[Google Translate](https://translate.google.com/?sl=hr&tl=en&text=Petar%20Mlinari%C4%87&op=translate)
-does a decent job.
-Usually, I go by "Peter" in English or German-speaking countries.
-
-Officially, the last letter in my last name is "ć"
-(LaTeX: `\'c`).
-In foreign documents, I replace it with "c".
