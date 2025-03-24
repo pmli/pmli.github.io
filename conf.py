@@ -960,9 +960,7 @@ FEED_LINKS_APPEND_QUERY = False
 
 # A HTML fragment describing the license, for the sidebar.
 # (translatable)
-LICENSE = (
-    '<a rel="license" href="https://spdx.org/licenses/MIT.html">' "MIT License</a>"
-)
+LICENSE = '<a rel="license" href="https://spdx.org/licenses/MIT.html">MIT License</a>'
 # I recommend using the Creative Commons' wizard:
 # https://creativecommons.org/choose/
 # LICENSE = """
