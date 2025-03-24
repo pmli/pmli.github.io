@@ -1,7 +1,7 @@
 <!--
 .. title: Welcome
 .. slug: index
-.. date:
+.. date: 2025-03-24
 .. tags: Petar Mlinarić Mlinaric
 .. category:
 .. link:
@@ -15,19 +15,24 @@
   src="images/mlinaric.jpg"
   alt="Petar Mlinarić profile picture">
 
-I am a postdoc at the
-[Department of Mathematics](https://math.vt.edu/) at
-[Virginia Tech](https://vt.edu/).
-Previously, I was a postdoc and a PhD student in the
-[CSC group](https://www.mpi-magdeburg.mpg.de/csc) at
-[MPI Magdeburg](https://www.mpi-magdeburg.mpg.de/2316/en).
+I am an assistant professor at the
+[University of Zagreb](https://www.unizg.hr/homepage/)
+([Faculty of Science](https://www.pmf.unizg.hr/en),
+[Department of Mathematics](https://www.pmf.unizg.hr/math/en)).
+Previously,
+I was a postdoc at
+[Virginia Tech](https://vt.edu/)
+([Department of Mathematics](https://math.vt.edu/)),
+and a postdoc and a PhD student at
+[MPI Magdeburg](https://www.mpi-magdeburg.mpg.de/2316/en)
+([CSC group](https://www.mpi-magdeburg.mpg.de/csc)).
 My research is in the area of
 [model order reduction](http://modelreduction.org),
 and I am one of the main developers of [pyMOR](https://pymor.org).
 
 # Contact Info
 
-My work email is: mlinaric *at* vt *dot* edu.
+My work email is: petar *dot* mlinaric *at* math *dot* hr.
 
 # Public Profiles
 
