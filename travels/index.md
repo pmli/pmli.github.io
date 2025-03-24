@@ -11,6 +11,17 @@
 
 # Conferences
 
+## 2025
+
+- [**BIRS Workshop on "Challenges, Opportunities, and New Horizons in Rational
+  Approximation"**](https://workshops.birs.ca/events/25w5376)
+    - April 6-11, Banff, Canada
+    - *Riemannian Optimization over Rational Functions*
+- [**4th Workshop on Optimal Control of Dynamical Systems and
+  Applications**](https://indico.mathos.hr/event/13/)
+    - February 26-28, Villány, Hungary
+    - *Optimal Damping for the Wave Equation*
+
 ## 2024
 
 - [**Model Reduction and Surrogate Modeling (MORe2024)**](https://more2024.sciencesconf.org/)
