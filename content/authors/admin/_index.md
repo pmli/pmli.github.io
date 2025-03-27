@@ -138,5 +138,8 @@ awards:
 ## About Me
 
 Petar Mlinarić is an assistant professor at the University of Zagreb.
+Previously, he was a postdoctoral associate at Virginia Tech and
+a postdoctoral researcher and PhD student at the Max Planck Institute for
+Dynamics of Complex Technical Systems.
 His research interests include structure-preserving model order reduction,
 damping optimization, and mathematical software.
