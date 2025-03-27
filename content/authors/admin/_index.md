@@ -3,7 +3,7 @@
 title: Petar Mlinarić
 
 # Name pronunciation (optional)
-name_pronunciation:
+name_pronunciation: ''
 
 # Full name (for SEO)
 first_name: Petar
@@ -48,6 +48,7 @@ profiles:
 
 interests:
   - Model Order Reduction
+  - Systems and Control Theory
   - Numerical Linear Algebra
   - Scientific Computing
 
@@ -63,12 +64,12 @@ education:
   - area: MSc Applied Mathematics
     institution: University of Zagreb
     date_start: 2012-10-01
-    date_end: 2014-07-31
+    date_end: 2014-07-25
     summary:
   - area: BSc Mathematics
     institution: University of Zagreb
     date_start: 2009-10-01
-    date_end: 2012-07-31
+    date_end: 2012-07-01
     summary:
 work:
   - position: Assistant Professor
@@ -82,43 +83,40 @@ work:
     company_name: Virginia Tech
     company_url: ''
     company_logo: ''
-    date_start: 2021-10-01
+    date_start: 2021-09-10
     date_end: 2024-12-24
     summary:
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+  # - name: Technical Skills
+  #   items:
+  #     - name: Python
+  #       description: ''
+  #       icon: python
+  #     - name: Matlab/Octave
+  #       description: ''
+  #       icon: code-bracket
+  #     - name: Julia
+  #       description: ''
+  #       icon: code-bracket
+  # - name: Hobbies
+  #   color: '#eeac02'
+  #   color_border: '#f0bf23'
+  #   items:
+  #     - name: Hiking
+  #       description: ''
+  #       percent: 60
+  #       icon: person-simple-walk
+  #     - name: Cats
+  #       description: ''
+  #       percent: 100
+  #       icon: cat
+  #     - name: Photography
+  #       description: ''
+  #       percent: 80
+  #       icon: camera
 
 languages:
   - name: Croatian
