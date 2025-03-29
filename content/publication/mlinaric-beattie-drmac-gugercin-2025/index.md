@@ -54,7 +54,7 @@ featured: true
 
 # Links
 url_pdf: 'https://arxiv.org/pdf/2311.02031'
-url_code: 'https://github.com/pmli/rgd-irka-experiments'
+url_code: 'https://zenodo.org/records/10069858'
 url_dataset: ''
 url_poster: ''
 url_project: ''

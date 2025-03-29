@@ -60,7 +60,7 @@ featured: false
 
 # Links
 url_pdf: 'https://arxiv.org/pdf/2209.00714'
-url_code: 'https://github.com/pmli/l2-opt-interp-ex'
+url_code: 'https://zenodo.org/records/7041901'
 url_dataset: ''
 url_poster: ''
 url_project: ''

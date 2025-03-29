@@ -16,7 +16,7 @@ authors:
 # A YAML list of notes for each author in the above `authors` list
 author_notes: []
 
-date: '2023-01-01'
+date: '2024-09-20'
 
 # Date to publish webpage (NOT necessarily Bibtex publication's date).
 publishDate: '2025-03-29T17:50:33.472981Z'
@@ -59,7 +59,7 @@ featured: false
 
 # Links
 url_pdf: 'https://arxiv.org/pdf/2310.10618'
-url_code: 'https://github.com/pmli/h2-opt-st-interp-num/tree/v1'
+url_code: 'https://zenodo.org/records/12519507'
 url_dataset: ''
 url_poster: ''
 url_project: ''

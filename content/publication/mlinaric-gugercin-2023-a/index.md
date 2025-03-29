@@ -58,7 +58,7 @@ featured: true
 
 # Links
 url_pdf: 'https://arxiv.org/pdf/2206.02929'
-url_code: 'https://github.com/pmli/l2-opt-rom-ex'
+url_code: 'https://zenodo.org/records/6618116'
 url_dataset: ''
 url_poster: ''
 url_project: ''
