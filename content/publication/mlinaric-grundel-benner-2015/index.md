@@ -1,5 +1,5 @@
 ---
-title: |
+title: >-
   Efficient model order reduction for multi-agent systems using QR
   decomposition-based clustering
 
@@ -32,7 +32,7 @@ publication_short: ''
 
 doi: 10.1109/CDC.2015.7402967
 
-abstract: |
+abstract: >-
   In this paper we present an efficient model order reduction method for
   multi-agent systems with Laplacian-based dynamics. The method combines an
   established model order reduction method and a clustering algorithm to produce

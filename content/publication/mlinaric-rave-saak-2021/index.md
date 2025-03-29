@@ -30,7 +30,7 @@ publication_short: ''
 
 doi: 10.1007/978-3-030-72983-7_17
 
-abstract: |
+abstract: >-
   pyMOR is a free software library for model order reduction that includes both
   reduced basis and system-theoretic methods. All methods are implemented in
   terms of abstract vector and operator interfaces, which allows a direct

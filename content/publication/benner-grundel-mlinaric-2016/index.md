@@ -1,5 +1,5 @@
 ---
-title: |
+title: >-
   Stability preserving model reduction for linearly coupled linear
   time-invariant systems
 
@@ -32,7 +32,7 @@ publication_short: ''
 
 doi: 10.1002/pamm.201610397
 
-abstract: |
+abstract: >-
   We develop a stability preserving model reduction method for linearly coupled
   linear time-invariant (LTI) systems. The method extends the work of
   Monshizadeh et al. for multi-agent systems with identical LTI agents. They

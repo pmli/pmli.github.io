@@ -1,5 +1,5 @@
 ---
-title: |
+title: >-
   Clustering-Based Model Order Reduction for Multi-Agent Systems with General
   Linear Time-Invariant Agents
 
@@ -27,12 +27,12 @@ publication_types:
 - paper-conference
 
 # Publication name and optional abbreviated publication name.
-publication: |
+publication: >-
   '*22nd International Symposium on Mathematical Theory of Networks and Systems
   (MTNS)*'
 publication_short: ''
 
-abstract: |
+abstract: >-
   In this paper, we extend our clustering-based model order reduction method for
   multi-agent systems with single-integrator agents to the case where the agents
   have identical general linear time-invariant dynamics. The method consists of

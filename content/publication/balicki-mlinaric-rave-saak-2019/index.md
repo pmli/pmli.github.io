@@ -31,7 +31,7 @@ publication_short: ''
 
 doi: 10.1002/pamm.201900459
 
-abstract: |
+abstract: >-
   This paper shows recent developments in pyMOR, in particular the addition of
   system-theoretic methods. All methods are implemented using pyMOR's abstract
   interfaces, which allows the application to partial differential equation

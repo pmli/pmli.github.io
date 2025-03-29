@@ -31,7 +31,7 @@ publication_short: ''
 
 doi: 10.1109/TAC.2024.3489416
 
-abstract: |
+abstract: >-
   The iterative rational Krylov algorithm (IRKA) is a commonly used fixed-point
   iteration developed to minimize the $\mathcal{H}_2$ model order reduction
   error. In this work, IRKA is recast as a Riemannian gradient descent method

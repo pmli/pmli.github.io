@@ -1,5 +1,5 @@
 ---
-title: |
+title: >-
   An $\mathcal{H}_2 \otimes \mathcal{L}_2$-Optimal Model Order Reduction
   Approach for Parametric Linear Time-Invariant Systems
 
@@ -32,7 +32,7 @@ publication_short: ''
 
 doi: 10.1002/pamm.201800084
 
-abstract: |
+abstract: >-
   So far, $\mathcal{H}_2 \otimes \mathcal{L}_2$-optimal model order reduction
   (MOR) of linear time-invariant systems, preserving the affine parameter
   dependence, was only considered for special cases by Baur et al in 2011. In

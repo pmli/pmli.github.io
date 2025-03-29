@@ -1,5 +1,5 @@
 ---
-title: |
+title: >-
   Synchronization and Aggregation of Nonlinear Power Systems with Consideration
   of Bus Network Structures
 
@@ -35,7 +35,7 @@ publication_short: ''
 
 doi: 10.23919/ECC.2018.8550528
 
-abstract: |
+abstract: >-
   We study nonlinear power systems consisting of generators, generator buses,
   and non-generator buses. First, looking at a generator and its bus' variables
   jointly, we introduce a synchronization concept for a pair of such joint

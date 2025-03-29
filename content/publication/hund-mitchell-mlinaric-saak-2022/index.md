@@ -1,5 +1,5 @@
 ---
-title: |
+title: >-
   Optimization-based Parametric Model Order Reduction via ${\mathcal{H}_2
   \otimes \mathcal{L}_2}$ First-order Necessary Conditions
 
@@ -33,7 +33,7 @@ publication_short: ''
 
 doi: 10.1137/21M140290X
 
-abstract: |
+abstract: >-
   In this paper, we generalize existing frameworks for ${\mathcal{H}_2 \otimes
   \mathcal{L}_2}$-optimal model order reduction to a broad class of parametric
   linear time-invariant systems. To this end, we derive first-order necessary

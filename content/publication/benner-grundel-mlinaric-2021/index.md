@@ -30,7 +30,7 @@ publication_short: ''
 
 doi: 10.1007/978-3-030-72983-7_4
 
-abstract: |
+abstract: >-
   Clustering by projection has been proposed as a way to preserve network
   structure in linear multi-agent systems. Here, we extend this approach to a
   class of nonlinear network systems. Additionally, we generalize our clustering

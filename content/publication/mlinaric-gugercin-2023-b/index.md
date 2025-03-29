@@ -1,5 +1,5 @@
 ---
-title: |
+title: >-
   A Unifying Framework for Interpolatory $\mathcal{L}_2$-optimal Reduced-order
   Modeling
 
@@ -31,7 +31,7 @@ publication_short: ''
 
 doi: 10.1137/22M1516920
 
-abstract: |
+abstract: >-
   We develop a unifying framework for interpolatory $\mathcal{L}_2$-optimal
   reduced-order modeling for a wide classes of problems ranging from stationary
   models to parametric dynamical systems. We first show that the framework

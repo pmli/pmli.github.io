@@ -1,5 +1,5 @@
 ---
-title: |
+title: >-
   Model reduction of linear multi-agent systems by clustering with
   $\mathcal{H}_2$ and $\mathcal{H}_\infty$ error bounds
 
@@ -34,7 +34,7 @@ publication_short: ''
 
 doi: 10.1007/s00498-018-0212-6
 
-abstract: |
+abstract: >-
   In the recent paper [Monshizadeh et al., Projection-Based Model Reduction of
   Multi-Agent Systems Using Graph Partitions, IEEE Trans Control Netw Syst
   1(2):145-154, 2014], model reduction of leader-follower multi-agent networks

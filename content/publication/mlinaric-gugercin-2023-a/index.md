@@ -1,5 +1,5 @@
 ---
-title: |
+title: >-
   $\mathcal{L}_2$-optimal Reduced-order Modeling Using Parameter-separable Forms
 
 # Authors
@@ -30,7 +30,7 @@ publication_short: ''
 
 doi: 10.1137/22M1500678
 
-abstract: |
+abstract: >-
   We provide a unifying framework for $\mathcal{L}_2$-optimal reduced-order
   modeling for linear time-invariant dynamical systems and stationary parametric
   problems. Using parameter-separable forms of the reduced-model quantities, we
