@@ -86,6 +86,20 @@ work:
     date_start: 2021-09-10
     date_end: 2024-12-24
     summary:
+  - position: Postdoctoral Researcher
+    company_name: Max Planck Institute for Dynamics of Complex Technical Systems
+    company_url: ''
+    company_logo: ''
+    date_start: 2020-01-24
+    date_end: 2021-07-31
+    summary:
+  - position: PhD Student
+    company_name: Max Planck Institute for Dynamics of Complex Technical Systems
+    company_url: ''
+    company_logo: ''
+    date_start: 2014-09-01
+    date_end: 2021-01-23
+    summary:
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
