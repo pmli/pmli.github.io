@@ -1,22 +1,34 @@
-@Unpublished{MliBG23,
-  author =       "Petar Mlinarić and Peter Benner and Serkan Gugercin",
-  title =        "Interpolatory {\(\mathcal H_2\)}-optimality Conditions for
-                 Structured Linear Time-invariant Systems",
-  year =         "2023",
-  note =         "arXiv preprint 2310.10618 (accepted in SINUM)",
-  doi =          "10.48550/arXiv.2310.10618",
-  abstract =     "Interpolatory necessary optimality conditions for {\(\mathcal
-                 H_2\)}-optimal reduced-order modeling of unstructured linear
-                 time-invariant (LTI) systems are well-known. Based on previous
-                 work on {\(\mathcal L_2\)}-optimal reduced-order modeling of
-                 stationary parametric problems, in this paper we develop and
-                 investigate optimality conditions for {\(\mathcal
-                 H_2\)}-optimal reduced-order modeling of structured LTI
-                 systems, in particular, for second-order, port-Hamiltonian, and
-                 time-delay systems. We show that across all these different
-                 structured settings, bitangential Hermite interpolation is the
-                 common form for optimality, thus proving a unifying optimality
-                 framework for structured reduced-order modeling.",
+@Unpublished{MalDFM25,
+  author =       "Joshua M. Maldonado and Christian Drischler and Richard J.
+                 Furnstahl and Petar Mlinarić",
+  title =        "Greedy Emulators for Nuclear Two-Body Scattering",
+  year =         "2025",
+  note =         "arXiv preprint 2504.06092 (submitted)",
+  doi =          "10.48550/arXiv.2504.06092",
+  abstract =     "Applications of reduced basis method emulators are increasing
+                 in low-energy nuclear physics because they enable fast and
+                 accurate sampling of high-fidelity calculations, enabling
+                 robust uncertainty quantification. In this paper, we develop,
+                 implement, and test two model-driven emulators based on
+                 (Petrov-)Galerkin projection using the prototypical test case
+                 of two-body scattering with the Minnesota potential and a more
+                 realistic local chiral potential. The high-fidelity scattering
+                 equations are solved with the matrix Numerov method, a
+                 reformulation of the popular Numerov recurrence relation for
+                 solving special second-order differential equations as a linear
+                 system of coupled equations. A novel error estimator based on
+                 reduced-space residuals is applied to an active learning
+                 approach (a greedy algorithm) to choosing training samples
+                 ({"}snapshots{"}) for the emulator and contrasted with a proper
+                 orthogonal decomposition (POD) approach. Both approaches allow
+                 for computationally efficient offline-online decompositions,
+                 but the greedy approach requires much fewer snapshot
+                 calculations. These developments set the groundwork for
+                 emulating scattering observables based on chiral
+                 nucleon-nucleon and three-nucleon interactions and optical
+                 models, where computational speed-ups are necessary for
+                 Bayesian uncertainty quantification. Our emulators and error
+                 estimators are widely applicable to linear systems.",
 }
 
 @Unpublished{MliBG24,
@@ -38,4 +50,24 @@
                  this result to recover known conditions for systems with
                  parameter-independent poles and develop new conditions for a
                  certain class of systems with parameter-dependent poles.",
+}
+
+@Misc{OliMAU25,
+  author =       "Guillaume Olikier and Petar Mlinarić and P.-A. Absil and
+                 André Uschmajew",
+  title =        "The tangent cone to the real determinantal variety: various
+                 expressions and a proof",
+  year =         "2025",
+  note =         "arXiv preprint 2504.11382 (submitted)",
+  doi =          "10.48550/arXiv.2504.11382",
+  abstract =     "The set of real matrices of upper-bounded rank is a real
+                 algebraic variety called the real generic determinantal
+                 variety. An explicit description of the tangent cone to that
+                 variety is given in Theorem 3.2 of Schneider and Uschmajew
+                 [SIAM J. Optim., 25 (2015), pp. 622-646]. The present paper
+                 shows that the proof therein is incomplete and provides a
+                 proof. It also reviews equivalent descriptions of the tangent
+                 cone to that variety. Moreover, it shows that the tangent cone
+                 and the algebraic tangent cone to that variety coincide, which
+                 is not true for all real algebraic varieties.",
 }
