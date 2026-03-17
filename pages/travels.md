@@ -187,6 +187,9 @@
 
 ## Research Visits
 
+- **UCLouvain**
+    - February 2-6, 2026, Louvain-la-Neuve, Belgium
+    - *IRKA Is a Riemannian Gradient Descent Method*
 - **Josip Juraj Strossmayer University of Osijek**
     - September 12-16, 2022, Osijek, Croatia
     - *Interpolatory Conditions for \\(\mathcal{L}_2\\)-optimal Reduced-order Modeling*
