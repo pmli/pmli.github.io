@@ -9,9 +9,9 @@
 .. type: text
 -->
 
-# Conferences
+## Conferences
 
-## 2025
+### 2025
 
 - [**BIRS Workshop on "Challenges, Opportunities, and New Horizons in Rational
   Approximation"**](https://workshops.birs.ca/events/25w5376)
@@ -22,7 +22,7 @@
     - February 26-28, Villány, Hungary
     - *Optimal Damping for the Wave Equation*
 
-## 2024
+### 2024
 
 - [**Model Reduction and Surrogate Modeling (MORe2024)**](https://more2024.sciencesconf.org/)
     - September 9-13, San Diego, CA, US
@@ -32,7 +32,7 @@
     - August 19-23, 2024, Cambridge, UK
     - *TF-IRKA is also a Riemannian Gradient Descent Method*
 
-## 2023
+### 2023
 
 - [**European Conference on Numerical Mathematics and Advanced Applications
   (ENUMATH 2023)**](https://enumath2023.com/)
@@ -53,7 +53,7 @@
     - February 26 - Mar 3 2023, Amsterdam, The Netherlands
     - *Least-squares Parametric Reduced-order Modeling*
 
-## 2022
+### 2022
 
 - [**5th Annual Meeting of the SIAM Texas-Louisiana Section (SIAM TXLA22)**](https://www.math.uh.edu/siamtxla22/)
     - November 4-6, 2022, Houston, TX, USA
@@ -84,7 +84,7 @@
     - March 28 - April 1, 2022, Osijek, Croatia
     - *Structured \\(\mathcal{L}_2\\)-Optimal Parametric Model Order Reduction*
 
-## 2021
+### 2021
 
 - [**Southeast Control Conference 2021 (SECC 2021)**](https://secc21.com/)
     - November 29-30, 2021, Blacksburg, VA, USA
@@ -95,7 +95,7 @@
 - [**SciPy 2021**](https://www.scipy2021.scipy.org/)
     - July 12-18, 2021, virtual
 
-## 2020
+### 2020
 
 - [**Tenth Conference on Applied Mathematics and Scientific Computing (ApplMath20)**](https://applmath.math.pmf.unizg.hr/2020/#/)
     - September 14-18, 2020, Brijuni, Croatia (hybrid)
@@ -105,7 +105,7 @@
     - January 27 - May 1, 2020, Providence, RI, USA
     - *pyMOR - Generic Interfaces for Model Order Reduction*
 
-## 2019
+### 2019
 
 - [**EuroSciPy 2019**](https://www.euroscipy.org/2019/)
     - September 2-6, 2019, Bilbao, Spain
@@ -118,7 +118,7 @@
     - *\\(\mathcal{H}_2\\)-Optimal Model Order Reduction of Interconnected
       Systems*
 
-## 2018
+### 2018
 
 - [**International Workshop on Optimal Control of Dynamical Systems and Applications**](http://workshop.mathos.unios.hr/)
     - June 20-22, 2018, Osijek, Croatia
@@ -135,7 +135,7 @@
     - March 19-23, 2018, Munich, Germany
     - *Clustering-Based Model Order Reduction for Nonlinear Multi-Agent Systems*
 
-## 2017
+### 2017
 
 - **Reduced Basis (and Friends) Summer School 2017**
     - September 19-22, 2017, Goslar, Germany
@@ -149,7 +149,7 @@
     - January 11-13, 2017, Odense, Denmark
     - *Model Reduction of Network Systems by Clustering*
 
-## 2016
+### 2016
 
 - [**Reduced Basis Summer School 2016**](https://www.mpi-magdeburg.mpg.de/csc/events/RBSS2016)
     - October 4-7, 2016, Hedersleben, Germany
@@ -174,7 +174,7 @@
     - *Efficient Model Order Reduction for Multi-Agent Systems Using Graph
       Partitions*
 
-## 2015
+### 2015
 
 - [**54th IEEE Conference on Decision and Control (CDC)**](http://cdc2015.ieeecss.org/)
     - December 15-18, 2015, Osaka, Japan
@@ -185,7 +185,7 @@
     - *Efficient Model Order Reduction for Multi-Agent Systems Using Graph
       Partitions*
 
-# Research Visits
+## Research Visits
 
 - **Josip Juraj Strossmayer University of Osijek**
     - September 12-16, 2022, Osijek, Croatia
@@ -198,7 +198,7 @@
 - **University of Groningen**
     - January 19-22, 2016, Groningen, the Netherlands
 
-# Schools
+## Schools
 
 - [**pyMOR School and User Meeting 2024**](https://2024.school.pymor.org/)
     - August 26-30, 2024, Münster, Germany
