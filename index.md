@@ -30,17 +30,17 @@ My research is in the area of
 [model order reduction](http://modelreduction.org),
 and I am one of the main developers of [pyMOR](https://pymor.org).
 
-# Contact Info
+## Contact Info
 
 My work email is: petar *dot* mlinaric *at* math *dot* hr.
 
-# Public Profiles
+## Public Profiles
 
 - [GitHub](https://github.com/pmli)
 - [Google Scholar](https://scholar.google.com/citations?&user=bcgJ5XsAAAAJ)
 - [LinkedIn](https://www.linkedin.com/in/petar-mlinaric/)
 - [ORCiD](https://orcid.org/0000-0002-9437-7698)
 
-# Curriculum Vitae
+## Curriculum Vitae
 
 Available here: [CV](/pdf/mlinaric_cv.pdf)
