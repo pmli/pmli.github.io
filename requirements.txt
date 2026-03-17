@@ -18,8 +18,10 @@ arrow==1.4.0
     # via isoduration
 asttokens==3.0.1
     # via stack-data
-async-lru==2.2.0
+async-lru==2.0.5
     # via jupyterlab
+async-timeout==5.0.1
+    # via aiohttp
 attrs==25.4.0
     # via
     #   aiohttp
@@ -33,7 +35,7 @@ beautifulsoup4==4.14.3
     # via
     #   micawber
     #   nbconvert
-bleach==6.3.0
+bleach==6.2.0
     # via nbconvert
 blinker==1.9.0
     # via nikola
@@ -44,10 +46,12 @@ certifi==2026.2.25
     #   requests
 cffi==2.0.0
     # via argon2-cffi-bindings
-cfgv==3.5.0
+cfgv==3.4.0
     # via pre-commit
 charset-normalizer==3.4.6
     # via requests
+cloudpickle==3.1.2
+    # via doit
 comm==0.2.3
     # via ipykernel
 debugpy==1.8.20
@@ -60,13 +64,17 @@ distlib==0.4.0
     # via virtualenv
 docutils==0.22.4
     # via nikola
-doit==0.37.0
+doit==0.36.0
     # via nikola
+exceptiongroup==1.3.1
+    # via
+    #   anyio
+    #   ipython
 executing==2.2.1
     # via stack-data
 fastjsonschema==2.21.2
     # via nbformat
-filelock==3.25.2
+filelock==3.19.1
     # via
     #   python-discovery
     #   virtualenv
@@ -88,7 +96,7 @@ httpcore==1.0.9
     # via httpx
 httpx==0.28.1
     # via jupyterlab
-identify==2.6.18
+identify==2.6.15
     # via pre-commit
 idna==3.11
     # via
@@ -98,15 +106,22 @@ idna==3.11
     #   requests
     #   yarl
 importlib-metadata==8.7.1
-    # via pygal
-ipykernel==7.2.0
+    # via
+    #   doit
+    #   jupyter-client
+    #   jupyter-lsp
+    #   jupyterlab
+    #   jupyterlab-server
+    #   markdown
+    #   nbconvert
+    #   pybtex
+    #   pygal
+ipykernel==6.31.0
     # via
     #   jupyterlab
     #   nikola
-ipython==9.11.0
+ipython==8.18.1
     # via ipykernel
-ipython-pygments-lexers==1.1.1
-    # via ipython
 isoduration==20.11.0
     # via jsonschema
 jedi==0.19.2
@@ -122,19 +137,19 @@ json5==0.13.0
     # via jupyterlab-server
 jsonpointer==3.0.0
     # via jsonschema
-jsonschema==4.26.0
+jsonschema==4.25.1
     # via
     #   jupyter-events
     #   jupyterlab-server
     #   nbformat
 jsonschema-specifications==2025.9.1
     # via jsonschema
-jupyter-client==8.8.0
+jupyter-client==8.6.3
     # via
     #   ipykernel
     #   jupyter-server
     #   nbclient
-jupyter-core==5.9.1
+jupyter-core==5.8.1
     # via
     #   ipykernel
     #   jupyter-client
@@ -174,7 +189,7 @@ lxml==6.0.2
     #   nikola
 mako==1.3.10
     # via nikola
-markdown==3.10.2
+markdown==3.9
     # via nikola
 markupsafe==3.0.3
     # via
@@ -195,7 +210,7 @@ multidict==6.7.1
     #   yarl
 natsort==8.4.0
     # via nikola
-nbclient==0.10.4
+nbclient==0.10.2
     # via nbconvert
 nbconvert==7.17.0
     # via jupyter-server
@@ -216,6 +231,8 @@ notebook-shim==0.2.4
     # via
     #   jupyterlab
     #   notebook
+overrides==7.7.0
+    # via jupyter-server
 packaging==26.0
     # via
     #   ipykernel
@@ -234,14 +251,14 @@ phpserialize==1.3
     # via nikola
 piexif==1.1.3
     # via nikola
-pillow==12.1.1
+pillow==11.3.0
     # via nikola
-platformdirs==4.9.4
+platformdirs==4.4.0
     # via
     #   jupyter-core
     #   python-discovery
     #   virtualenv
-pre-commit==4.5.1
+pre-commit==4.3.0
     # via -r requirements.in
 prometheus-client==0.24.1
     # via jupyter-server
@@ -261,14 +278,13 @@ pure-eval==0.2.3
     # via stack-data
 pybtex==0.25.1
     # via -r requirements.in
-pycparser==3.0
+pycparser==2.23
     # via cffi
 pygal==3.1.0
     # via nikola
 pygments==2.19.2
     # via
     #   ipython
-    #   ipython-pygments-lexers
     #   nbconvert
     #   nikola
 pyphen==0.17.2
@@ -295,7 +311,7 @@ pyzmq==27.1.0
     #   ipykernel
     #   jupyter-client
     #   jupyter-server
-referencing==0.37.0
+referencing==0.36.2
     # via
     #   jsonschema
     #   jsonschema-specifications
@@ -314,7 +330,7 @@ rfc3986-validator==0.1.1
     #   jupyter-events
 rfc3987-syntax==1.1.0
     # via jsonschema
-rpds-py==0.30.0
+rpds-py==0.27.1
     # via
     #   jsonschema
     #   referencing
@@ -345,6 +361,8 @@ tinycss2==1.4.0
     # via bleach
 toml==0.10.2
     # via nikola
+tomli==2.4.0
+    # via jupyterlab
 tornado==6.5.5
     # via
     #   ipykernel
@@ -370,8 +388,15 @@ typing-extensions==4.15.0
     # via
     #   aiosignal
     #   anyio
+    #   async-lru
     #   beautifulsoup4
+    #   exceptiongroup
+    #   ipython
+    #   mistune
+    #   multidict
+    #   python-json-logger
     #   referencing
+    #   virtualenv
 typogrify==2.1.0
     # via nikola
 tzdata==2025.3
@@ -388,7 +413,7 @@ watchdog==6.0.0
     # via nikola
 wcwidth==0.6.0
     # via prompt-toolkit
-webcolors==25.10.0
+webcolors==24.11.1
     # via jsonschema
 webencodings==0.5.1
     # via
@@ -397,7 +422,7 @@ webencodings==0.5.1
     #   tinycss2
 websocket-client==1.9.0
     # via jupyter-server
-yarl==1.23.0
+yarl==1.22.0
     # via aiohttp
 zipp==3.23.0
     # via importlib-metadata
