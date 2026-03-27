@@ -203,6 +203,8 @@
 
 ## Schools
 
+- [**pyMOR School and User Meeting 2025**](https://2025.school.pymor.org/)
+    - September 8-12, 2025, Zagreb, Croatia
 - [**pyMOR School and User Meeting 2024**](https://2024.school.pymor.org/)
     - August 26-30, 2024, Münster, Germany
 - [**pyMOR School 2023**](https://2023.school.pymor.org/)
