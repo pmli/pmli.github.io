@@ -31,7 +31,7 @@
 ### 2024
 
 - [**Model Reduction and Surrogate Modeling (MORe2024)**](https://more2024.sciencesconf.org/)
-    - September 9-13, San Diego, CA, US
+    - September 9-13, San Diego, California, USA
     - *Riemannian Optimization over the Manifold of Rational Functions*
 - [**26th International Symposium on Mathematical Theory of Networks and Systems
   (MTNS 2024)**](https://mtns2024.eng.cam.ac.uk/)
@@ -48,11 +48,11 @@
     - June 12-16, 2023, Madrid, Spain
     - *Optimal reduced-order modeling for structured linear systems*
 - [**Nonlinear Model Reduction for Control**](https://personal.math.vt.edu/borggajt/nlromc/index.html)
-    - May 22-26 2023, Blacksburg, VA, USA
+    - May 22-26 2023, Blacksburg, Virginia, USA
     - *\\(\mathcal{H}_2 \otimes \mathcal{L}_2\\)-optimal Model Order Reduction
       for Quadratic-bilinear Systems*
 - [**SIAM Southeastern Atlantic Section Annual Meeting**](https://conference.math.vt.edu/vt-siam-seas/index.html)
-    - March 25-26 2023, Blacksburg, VA, USA
+    - March 25-26 2023, Blacksburg, Virginia, USA
     - *\\(\mathcal{L}_2\\)-optimal Reduced-order Modeling of Parametric
       Stationary Problems*
 - [**SIAM Conference on Computational Science and Engineering (CSE23)**](https://www.siam.org/conferences/cm/conference/cse23)
@@ -62,7 +62,7 @@
 ### 2022
 
 - [**5th Annual Meeting of the SIAM Texas-Louisiana Section (SIAM TXLA22)**](https://www.math.uh.edu/siamtxla22/)
-    - November 4-6, 2022, Houston, TX, USA
+    - November 4-6, 2022, Houston, Texas, USA
     - *Least-squares Parametric Reduced-order Modeling*
 - [**Model Reduction and Surrogate Modeling (MORE)**](https://more.sciencesconf.org/)
     - September 19-23, 2022, Berlin, Germany
@@ -73,17 +73,17 @@
 - [**EuroSciPy 2022**](https://www.euroscipy.org/2022/)
     - August 29 - September 2, 2022, Basel, Switzerland
 - [**SciPy 2022**](https://www.scipy2022.scipy.org/)
-    - July 11-17, 2022, Austin, TX, USA
+    - July 11-17, 2022, Austin, Texas, USA
 - [**New Trends in Computational Science in Engineering and Industrial Mathematics**](https://indico3.mpi-magdeburg.mpg.de/event/6/)
     - July 1-2, 2022, Magdeburg, Germany
     - *Is IRKA a Riemannian Optimization Method?*
 - [**7th Croatian Mathematical Conference**](https://www.pmfst.unist.hr/cromc2020/)
     - June 15-18, 2022, Split, Croatia
 - [**Spring 2020 Reunion Event**](https://icerm.brown.edu/events/re-22-sp20/)
-    - May 23 - June 10, 2022, Providence, RI, USA
+    - May 23 - June 10, 2022, Providence, Rhode Island, USA
     - *\\(\mathcal{L}_2\\)-Optimal Reduced-Order Modeling*
 - [**SIAM Conference on Uncertainty Quantification (UQ22)**](https://www.siam.org/conferences/cm/conference/uq22)
-    - April 12-15, 2022, Atlanta, GA, USA
+    - April 12-15, 2022, Atlanta, Georgia, USA
     - *\\(\mathcal{L}_2\\)-Optimal Model Order Reduction for Parametric
       Stationary Problems*
 - [**3rd Workshop on Optimal Control of Dynamical Systems and Applications**](http://vims.mathos.unios.hr/page-builder/workshop-daad-2022/)
@@ -93,7 +93,7 @@
 ### 2021
 
 - [**Southeast Control Conference 2021 (SECC 2021)**](https://secc21.com/)
-    - November 29-30, 2021, Blacksburg, VA, USA
+    - November 29-30, 2021, Blacksburg, Virginia, USA
     - *Model Order Reduction for Parametric Stationary Problems*
 - [**SIAM Conference on Control and Its Applications (CT21)**](https://www.siam.org/conferences/cm/conference/ct21)
     - July 19-21, 2021, virtual
@@ -108,7 +108,7 @@
     - *Optimization-Based Parametric Model Order Reduction via Wilson-Type
       \\(\mathcal{H}_2 \otimes \mathcal{L}_2\\) Conditions*
 - [**Model and dimension reduction in uncertain and dynamic systems**](https://icerm.brown.edu/programs/sp-s20/)
-    - January 27 - May 1, 2020, Providence, RI, USA
+    - January 27 - May 1, 2020, Providence, Rhode Island, USA
     - *pyMOR - Generic Interfaces for Model Order Reduction*
 
 ### 2019
@@ -165,7 +165,7 @@
     - *Almost Almost-Equitableness and Clustering-Based Error Bounds*
 - [**22nd International Symposium on Mathematical Theory of Networks and Systems
   (MTNS)**](https://sites.google.com/a/umn.edu/mtns-2016/)
-    - July 12-15, 2016, Minneapolis, MN, USA
+    - July 12-15, 2016, Minneapolis, Minnesota, USA
     - *Clustering-Based Model Order Reduction for Multi-Agent Systems with
       General Linear Time-Invariant Agents*
 - [**6th Croatian Mathematical Congress**](https://web.math.pmf.unizg.hr/congress15/)
