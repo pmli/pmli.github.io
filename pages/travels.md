@@ -11,6 +11,12 @@
 
 ## Conferences
 
+### 2026
+
+- [**27th Conference of the International Linear Algebra Society (ILAS 2026)**](https://ilas2026.math.vt.edu/)
+    - May 18-22, Blacksburg, Virginia, USA
+    - *Riemannian Optimization over Rational Functions*
+
 ### 2025
 
 - [**BIRS Workshop on "Challenges, Opportunities, and New Horizons in Rational
