@@ -13,6 +13,9 @@
 
 ### 2026
 
+- [**13th Conference on Applied Mathematics and Scientific Computing (ApplMath26)**](https://applmath.math.pmf.unizg.hr/2026/#/)
+    - September 21-25, Dubrovnik, Croatia
+    - *Optimal Localized Damping for the 1D Wave Equation*
 - [**27th Conference of the International Linear Algebra Society (ILAS 2026)**](https://ilas2026.math.vt.edu/)
     - May 18-22, Blacksburg, Virginia, USA
     - *Riemannian Optimization over Rational Functions*
@@ -209,6 +212,8 @@
 
 ## Schools
 
+- [**pyMOR School and User Meeting 2026**](https://2026.school.pymor.org/)
+    - September 14-18, 2026, Graz, Austria
 - [**pyMOR School and User Meeting 2025**](https://2025.school.pymor.org/)
     - September 8-12, 2025, Zagreb, Croatia
 - [**pyMOR School and User Meeting 2024**](https://2024.school.pymor.org/)
