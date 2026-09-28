@@ -1,0 +1,17 @@
+{{- /*
+  Render inline math \( ... \) in an HTML string with KaTeX at build time.
+  Context: dict with "page" and "text" (trusted HTML).
+*/ -}}
+{{- $s := .text }}
+{{- $opts := dict "output" "htmlAndMathml" }}
+{{- range $m := findRESubmatch `(?s)\\\((.+?)\\\)` $s }}
+  {{- with try (transform.ToMath (index $m 1) $opts) }}
+    {{- with .Err }}
+      {{- errorf "KaTeX could not render %q on %s: %s" (index $m 1) $.page.File.Path . }}
+    {{- else }}
+      {{- $s = replace $s (index $m 0) (string .Value) 1 }}
+      {{- $.page.Store.Set "hasMath" true }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- $s | safeHTML -}}

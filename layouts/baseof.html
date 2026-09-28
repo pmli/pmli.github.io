@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="{{ site.Language.Locale }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ or .Description site.Params.description }}">
+  <meta name="author" content="{{ site.Params.author }}">
+  <meta name="theme-color" content="{{ site.Params.themeColor }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{- with resources.Get "css/main.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
+  {{- end }}
+  {{- /* Render the content first so that we know whether the page has math. */}}
+  {{- $noop := .WordCount }}
+  {{- if .Store.Get "hasMath" }}
+  <link rel="stylesheet" href="{{ "katex/katex.min.css" | relURL }}">
+  {{- end }}
+</head>
+<body>
+  <header class="site-header">
+    {{- if .IsHome }}
+    <h1 class="site-title">{{ site.Title }}</h1>
+    {{- else }}
+    <a class="site-title" href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a>
+    {{- end }}
+    <nav aria-label="Main">
+      <ul>
+        {{- range site.Menus.main }}
+        <li><a href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
+        {{- end }}
+      </ul>
+    </nav>
+  </header>
+  <main>
+    {{- block "main" . }}{{ end }}
+  </main>
+  <footer>
+    Contents © {{ now.Year }} {{ site.Params.author }}
+    · <a rel="license" href="{{ site.Params.licenseURL }}">{{ site.Params.license }}</a>
+    · Built with <a href="https://gohugo.io/">Hugo</a>
+  </footer>
+</body>
+</html>

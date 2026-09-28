@@ -2,7 +2,10 @@
 .venv/
 __pycache__/
 
-# nikola output
-cache/
-output/
-.doit.db.*
+# Hugo output
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# Generated from bib/*.bib by scripts/bib2json.py
+/data/publications/

@@ -1,0 +1,31 @@
+baseURL = "https://pmli.github.io/"
+disableKinds = ["rss", "section", "taxonomy", "term"]
+locale = "en"
+title = "Petar Mlinarić"
+
+[markup.goldmark.extensions.passthrough]
+enable = true
+
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [['\[', '\]'], ['$$', '$$']]
+inline = [['\(', '\)']]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[[menus.main]]
+name = "Publications"
+pageRef = "/publications"
+weight = 10
+
+[[menus.main]]
+name = "Travels"
+pageRef = "/travels"
+weight = 20
+
+[params]
+author = "Petar Mlinarić"
+description = "Personal website of Petar Mlinarić"
+license = "MIT License"
+licenseURL = "https://spdx.org/licenses/MIT.html"
+themeColor = "#5670d4"

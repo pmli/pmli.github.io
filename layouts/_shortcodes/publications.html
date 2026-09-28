@@ -1,0 +1,35 @@
+{{- /*
+  Render one BibTeX file as a publication list grouped by year.
+  Usage: {{< publications "journal" >}} renders data/publications/journal.json,
+  which scripts/bib2json.py generates from bib/journal.bib.
+*/ -}}
+{{- $name := .Get 0 }}
+{{- $groups := index hugo.Data "publications" $name }}
+{{- if not $groups }}
+  {{- errorf "No publication data for %q (%s). Run `python scripts/bib2json.py` first." $name .Position }}
+{{- end }}
+{{- range $groups }}
+<h3 id="{{ $name }}-{{ .year }}">{{ .year }}</h3>
+<ul class="publications">
+  {{- range .entries }}
+  <li id="{{ .key | anchorize }}">
+    <p class="reference">{{ partial "math.html" (dict "page" $.Page "text" .reference) }}</p>
+    <div class="pub-extra">
+      {{- range .links }}
+      <a href="{{ .url }}">{{ .label }}</a>
+      {{- end }}
+      {{- with .abstract }}
+      <details>
+        <summary>Abstract</summary>
+        <blockquote>{{ partial "math.html" (dict "page" $.Page "text" .) }}</blockquote>
+      </details>
+      {{- end }}
+      <details>
+        <summary>BibTeX</summary>
+        <pre><code>{{ .bibtex }}</code></pre>
+      </details>
+    </div>
+  </li>
+  {{- end }}
+</ul>
+{{- end }}
