@@ -1,246 +1,255 @@
-@Article{HunMMetal22,
-  author =       "Manuela Hund and Tim Mitchell and Petar Mlinarić and Jens
-                 Saak",
-  title =        "Optimization-based Parametric Model Order Reduction via
-                 {\(\mathcal H_2 \otimes \mathcal L_2\)} First-order Necessary
-                 Conditions",
-  journal =      "SIAM J. Sci. Comput.",
-  year =         "2022",
-  month =        jun,
-  volume =       "44",
-  number =       "3",
-  pages =        "A1554--A1578",
-  doi =          "10.1137/21M140290X",
-  abstract =     "In this paper, we generalize existing frameworks for
-                 {\(\mathcal H_2 \otimes \mathcal L_2\)}-optimal model order
-                 reduction to a broad class of parametric linear time-invariant
-                 systems. To this end, we derive first-order necessary
-                 optimality conditions for a class of structured reduced-order
-                 models and then, building on those, propose a
-                 stability-preserving optimization-based method for computing
-                 locally {\(\mathcal H_2 \otimes \mathcal L_2\)}-optimal
-                 reduced-order models. We also make a theoretical comparison to
-                 existing approaches in the literature and, in numerical
-                 experiments, show how our new method, with reasonable
-                 computational effort, produces stable optimized reduced-order
-                 models with significantly lower approximation errors.",
-  customlinkcode = "https://zenodo.org/record/5710777",
-  fulltext =     "https://doi.org/10.48550/arXiv.2103.03136",
+@article{HunMMetal22,
+  title         = {
+    Optimization-based Parametric Model Order Reduction via {\(\mathcal H_2
+    \otimes \mathcal L_2\)} First-order Necessary Conditions
+  },
+  author        = {Manuela Hund and Tim Mitchell and Petar Mlinarić and Jens Saak},
+  year          = 2022,
+  month         = jun,
+  journal       = {SIAM J. Sci. Comput.},
+  volume        = 44,
+  number        = 3,
+  pages         = {A1554--A1578},
+  doi           = {10.1137/21M140290X},
+  abstract      = {
+    In this paper, we generalize existing frameworks for {\(\mathcal H_2
+    \otimes \mathcal L_2\)}-optimal model order reduction to a broad class of
+    parametric linear time-invariant systems. To this end, we derive
+    first-order necessary optimality conditions for a class of structured
+    reduced-order models and then, building on those, propose a
+    stability-preserving optimization-based method for computing locally
+    {\(\mathcal H_2 \otimes \mathcal L_2\)}-optimal reduced-order models. We
+    also make a theoretical comparison to existing approaches in the literature
+    and, in numerical experiments, show how our new method, with reasonable
+    computational effort, produces stable optimized reduced-order models with
+    significantly lower approximation errors.
+  },
+  customlinkcode = {https://zenodo.org/record/5710777},
+  fulltext      = {https://doi.org/10.48550/arXiv.2103.03136},
 }
 
-@Article{JonMGetal18,
-  author =       "Hidde-Jan Jongsma and Petar Mlinarić and Sara Grundel and
-                 Peter Benner and Harry L. Trentelman",
-  title =        "Model reduction of linear multi-agent systems by clustering
-                 with {\(\mathcal H_2\)} and {\(\mathcal H_\infty\)} error
-                 bounds",
-  journal =      "Math. Control Signals Systems",
-  year =         "2018",
-  month =        apr,
-  volume =       "30",
-  number =       "6",
-  pages =        "1--38",
-  doi =          "10.1007/s00498-018-0212-6",
-  abstract =     "In the recent paper [Monshizadeh et al., Projection-Based
-                 Model Reduction of Multi-Agent Systems Using Graph Partitions,
-                 IEEE Trans Control Netw Syst 1(2):145-154, 2014], model
-                 reduction of leader-follower multi-agent networks by clustering
-                 was studied. For such multi-agent networks, a reduced order
-                 network is obtained by partitioning the set of nodes in the
-                 graph into disjoint sets, called clusters, and associating with
-                 each cluster a single, new, node in a reduced network graph. In
-                 Monshizadeh et al. (2014), this method was studied for the
-                 special case that the agents have single integrator dynamics.
-                 For a special class of graph partitions, called almost
-                 equitable partitions, an explicit formula was derived for the
-                 {\(\mathcal H_2\)} model reduction error. In the present paper,
-                 we will extend and generalize the results from Monshizadeh et
-                 al. (2014) in a number of directions. Firstly, we will
-                 establish an a priori upper bound for the {\(\mathcal H_2\)}
-                 model reduction error in case that the agent dynamics is an
-                 arbitrary multivariable input-state-output system. Secondly,
-                 for the single integrator case, we will derive an explicit
-                 formula for the {\(\mathcal H_\infty\)} model reduction error.
-                 Thirdly, we will prove an a priori upper bound for the
-                 {\(\mathcal H_\infty\)} model reduction error in case that the
-                 agent dynamics is a symmetric multivariable input-state-output
-                 system. Finally, we will consider the problem of obtaining a
-                 priori upper bounds if we cluster using arbitrary, possibly non
-                 almost equitable, partitions.",
+@article{JonMGetal18,
+  title         = {
+    Model reduction of linear multi-agent systems by clustering with
+    {\(\mathcal H_2\)} and {\(\mathcal H_\infty\)} error bounds
+  },
+  author        = {
+    Hidde-Jan Jongsma and Petar Mlinarić and Sara Grundel and Peter Benner and
+    Harry L. Trentelman
+  },
+  year          = 2018,
+  month         = apr,
+  journal       = {Math. Control Signals Systems},
+  volume        = 30,
+  number        = 6,
+  pages         = {1--38},
+  doi           = {10.1007/s00498-018-0212-6},
+  abstract      = {
+    In the recent paper [Monshizadeh et al., Projection-Based Model Reduction
+    of Multi-Agent Systems Using Graph Partitions, IEEE Trans Control Netw Syst
+    1(2):145-154, 2014], model reduction of leader-follower multi-agent
+    networks by clustering was studied. For such multi-agent networks, a
+    reduced order network is obtained by partitioning the set of nodes in the
+    graph into disjoint sets, called clusters, and associating with each
+    cluster a single, new, node in a reduced network graph. In Monshizadeh et
+    al. (2014), this method was studied for the special case that the agents
+    have single integrator dynamics. For a special class of graph partitions,
+    called almost equitable partitions, an explicit formula was derived for the
+    {\(\mathcal H_2\)} model reduction error. In the present paper, we will
+    extend and generalize the results from Monshizadeh et al. (2014) in a
+    number of directions. Firstly, we will establish an a priori upper bound
+    for the {\(\mathcal H_2\)} model reduction error in case that the agent
+    dynamics is an arbitrary multivariable input-state-output system. Secondly,
+    for the single integrator case, we will derive an explicit formula for the
+    {\(\mathcal H_\infty\)} model reduction error. Thirdly, we will prove an a
+    priori upper bound for the {\(\mathcal H_\infty\)} model reduction error in
+    case that the agent dynamics is a symmetric multivariable
+    input-state-output system. Finally, we will consider the problem of
+    obtaining a priori upper bounds if we cluster using arbitrary, possibly non
+    almost equitable, partitions.
+  },
 }
 
-@Article{MalDFM25,
-  author =       "Joshua M. Maldonado and Christian Drischler and Richard J.
-                 Furnstahl and Petar Mlinarić",
-  title =        "Greedy emulators for nuclear two-body scattering",
-  journal =      "Phys. Rev. C",
-  publisher =    "American Physical Society",
-  year =         "2025",
-  month =        aug,
-  volume =       "112",
-  pages =        "024002",
-  doi =          "10.1103/k77q-f82l",
-  abstract =     "Applications of reduced basis method emulators are increasing
-                 in low-energy nuclear physics because they enable fast and
-                 accurate sampling of high-fidelity calculations, enabling
-                 robust uncertainty quantification. In this paper, we develop,
-                 implement, and test two model-driven emulators based on the
-                 (Petrov-)Galerkin projection using the prototypical test case
-                 of two-body scattering with the Minnesota potential and a more
-                 realistic local chiral potential. The high-fidelity scattering
-                 equations are solved with the matrix Numerov method, a
-                 reformulation of the popular Numerov recurrence relation for
-                 solving special second-order differential equations as a linear
-                 system of coupled equations. A novel error estimator based on
-                 reduced-space residuals is applied to an active learning
-                 approach (a greedy algorithm) to choosing training samples
-                 ({"}snapshots{"}) for the emulator and contrasted with a proper
-                 orthogonal decomposition (POD) approach. Both approaches allow
-                 for computationally efficient offline-online decompositions,
-                 but the greedy approach requires many fewer snapshot
-                 calculations. These developments set the groundwork for
-                 emulating scattering observables based on chiral
-                 nucleon-nucleon and three-nucleon interactions and optical
-                 models, where computational speed-ups are necessary for
-                 Bayesian uncertainty quantification. Our emulators and error
-                 estimators are widely applicable to linear systems.",
-  issue =        "2",
-  numpages =     "22",
-  customlinkcode = "https://github.com/buqeye/cs_greedy_emulator",
-  fulltext =     "https://doi.org/10.48550/arXiv.2504.06092",
+@article{MalDFM25,
+  title         = {Greedy emulators for nuclear two-body scattering},
+  author        = {
+    Joshua M. Maldonado and Christian Drischler and Richard J. Furnstahl and
+    Petar Mlinarić
+  },
+  year          = 2025,
+  month         = aug,
+  journal       = {Phys. Rev. C},
+  publisher     = {American Physical Society},
+  volume        = 112,
+  pages         = {024002},
+  doi           = {10.1103/k77q-f82l},
+  abstract      = {
+    Applications of reduced basis method emulators are increasing in low-energy
+    nuclear physics because they enable fast and accurate sampling of
+    high-fidelity calculations, enabling robust uncertainty quantification. In
+    this paper, we develop, implement, and test two model-driven emulators
+    based on the (Petrov-)Galerkin projection using the prototypical test case
+    of two-body scattering with the Minnesota potential and a more realistic
+    local chiral potential. The high-fidelity scattering equations are solved
+    with the matrix Numerov method, a reformulation of the popular Numerov
+    recurrence relation for solving special second-order differential equations
+    as a linear system of coupled equations. A novel error estimator based on
+    reduced-space residuals is applied to an active learning approach (a greedy
+    algorithm) to choosing training samples ({"}snapshots{"}) for the emulator
+    and contrasted with a proper orthogonal decomposition (POD) approach. Both
+    approaches allow for computationally efficient offline-online
+    decompositions, but the greedy approach requires many fewer snapshot
+    calculations. These developments set the groundwork for emulating
+    scattering observables based on chiral nucleon-nucleon and three-nucleon
+    interactions and optical models, where computational speed-ups are
+    necessary for Bayesian uncertainty quantification. Our emulators and error
+    estimators are widely applicable to linear systems.
+  },
+  issue         = 2,
+  numpages      = 22,
+  customlinkcode = {https://github.com/buqeye/cs_greedy_emulator},
+  fulltext      = {https://doi.org/10.48550/arXiv.2504.06092},
 }
 
-@Article{MliBDG23,
-  author =       "Petar Mlinarić and Christopher A. Beattie and Zlatko Drmač
-                 and Serkan Gugercin",
-  title =        "{IRKA} is a {R}iemannian Gradient Descent Method",
-  journal =      "IEEE Trans. Autom. Control",
-  year =         "2025",
-  month =        may,
-  volume =       "70",
-  number =       "5",
-  pages =        "2979--2991",
-  doi =          "10.1109/TAC.2024.3489416",
-  abstract =     "The iterative rational Krylov algorithm (IRKA) is a commonly
-                 used fixed-point iteration developed to minimize the
-                 {\(\mathcal H_2\)} model order reduction error. In this work,
-                 IRKA is recast as a Riemannian gradient descent method with a
-                 fixed step size over the manifold of rational functions having
-                 fixed degree. This interpretation motivates the development of
-                 a Riemannian gradient descent method utilizing as a natural
-                 extension variable step size and line search. Comparisons made
-                 between IRKA and this extension on a few examples demonstrate
-                 significant benefits.",
-  customlinkcode = "https://github.com/pmli/rgd-irka-experiments",
-  fulltext =     "https://doi.org/10.48550/arXiv.2311.02031",
+@article{MliBDG23,
+  title         = {{IRKA} is a {R}iemannian Gradient Descent Method},
+  author        = {
+    Petar Mlinarić and Christopher A. Beattie and Zlatko Drmač and Serkan
+    Gugercin
+  },
+  year          = 2025,
+  month         = may,
+  journal       = {IEEE Trans. Autom. Control},
+  volume        = 70,
+  number        = 5,
+  pages         = {2979--2991},
+  doi           = {10.1109/TAC.2024.3489416},
+  abstract      = {
+    The iterative rational Krylov algorithm (IRKA) is a commonly used
+    fixed-point iteration developed to minimize the {\(\mathcal H_2\)} model
+    order reduction error. In this work, IRKA is recast as a Riemannian
+    gradient descent method with a fixed step size over the manifold of
+    rational functions having fixed degree. This interpretation motivates the
+    development of a Riemannian gradient descent method utilizing as a natural
+    extension variable step size and line search. Comparisons made between IRKA
+    and this extension on a few examples demonstrate significant benefits.
+  },
+  customlinkcode = {https://github.com/pmli/rgd-irka-experiments},
+  fulltext      = {https://doi.org/10.48550/arXiv.2311.02031},
 }
 
-@Article{MliBG25,
-  author =       "Petar Mlinarić and Peter Benner and Serkan Gugercin",
-  title =        "Interpolatory {\(\mathcal H_2\)}-optimality Conditions for
-                 Structured Linear Time-invariant Systems",
-  journal =      "SIAM J. Numer. Anal.",
-  year =         "2025",
-  month =        apr,
-  volume =       "63",
-  number =       "2",
-  pages =        "949--975",
-  doi =          "10.1137/23M1610033",
-  abstract =     "Interpolatory necessary optimality conditions for {\(\mathcal
-                 H_2\)}-optimal reduced-order modeling of unstructured linear
-                 time-invariant (LTI) systems are well-known. Based on previous
-                 work on {\(\mathcal L_2\)}-optimal reduced-order modeling of
-                 stationary parametric problems, in this paper we develop and
-                 investigate optimality conditions for {\(\mathcal
-                 H_2\)}-optimal reduced-order modeling of structured LTI
-                 systems, in particular, for second-order, port-Hamiltonian, and
-                 time-delay systems. We show that across all these different
-                 structured settings, bitangential Hermite interpolation is the
-                 common form for optimality, thus proving a unifying optimality
-                 framework for structured reduced-order modeling.",
-  customlinkcode = "https://github.com/pmli/h2-opt-st-interp-num/",
-  fulltext =     "https://doi.org/10.48550/arXiv.2310.10618",
+@article{MliBG25,
+  title         = {
+    Interpolatory {\(\mathcal H_2\)}-optimality Conditions for Structured
+    Linear Time-invariant Systems
+  },
+  author        = {Petar Mlinarić and Peter Benner and Serkan Gugercin},
+  year          = 2025,
+  month         = apr,
+  journal       = {SIAM J. Numer. Anal.},
+  volume        = 63,
+  number        = 2,
+  pages         = {949--975},
+  doi           = {10.1137/23M1610033},
+  abstract      = {
+    Interpolatory necessary optimality conditions for {\(\mathcal
+    H_2\)}-optimal reduced-order modeling of unstructured linear time-invariant
+    (LTI) systems are well-known. Based on previous work on {\(\mathcal
+    L_2\)}-optimal reduced-order modeling of stationary parametric problems, in
+    this paper we develop and investigate optimality conditions for {\(\mathcal
+    H_2\)}-optimal reduced-order modeling of structured LTI systems, in
+    particular, for second-order, port-Hamiltonian, and time-delay systems. We
+    show that across all these different structured settings, bitangential
+    Hermite interpolation is the common form for optimality, thus proving a
+    unifying optimality framework for structured reduced-order modeling.
+  },
+  customlinkcode = {https://github.com/pmli/h2-opt-st-interp-num/},
+  fulltext      = {https://doi.org/10.48550/arXiv.2310.10618},
 }
 
-@Article{MliG23,
-  author =       "Petar Mlinarić and Serkan Gugercin",
-  title =        "{\(\mathcal L_2\)}-optimal Reduced-order Modeling Using
-                 Parameter-separable Forms",
-  journal =      "SIAM J. Sci. Comput.",
-  year =         "2023",
-  month =        apr,
-  volume =       "45",
-  number =       "2",
-  pages =        "A554--A578",
-  doi =          "10.1137/22M1500678",
-  abstract =     "We provide a unifying framework for {\(\mathcal L_2\)}-optimal
-                 reduced-order modeling for linear time-invariant dynamical
-                 systems and stationary parametric problems. Using
-                 parameter-separable forms of the reduced-model quantities, we
-                 derive the gradients of the {\(\mathcal L_2\)} cost function
-                 with respect to the reduced matrices, which then allows a
-                 non-intrusive, data-driven, gradient-based descent algorithm to
-                 construct the optimal approximant using only output samples. By
-                 choosing an appropriate measure, the framework covers both
-                 continuous (Lebesgue) and discrete cost functions. We show the
-                 efficacy of the proposed algorithm via various numerical
-                 examples. Furthermore, we analyze under what conditions the
-                 data-driven approximant can be obtained via projection.",
-  customlinkcode = "https://github.com/pmli/l2-opt-rom-ex",
-  fulltext =     "https://doi.org/10.48550/arXiv.2206.02929",
+@article{MliG23,
+  title         = {
+    {\(\mathcal L_2\)}-optimal Reduced-order Modeling Using Parameter-separable
+    Forms
+  },
+  author        = {Petar Mlinarić and Serkan Gugercin},
+  year          = 2023,
+  month         = apr,
+  journal       = {SIAM J. Sci. Comput.},
+  volume        = 45,
+  number        = 2,
+  pages         = {A554--A578},
+  doi           = {10.1137/22M1500678},
+  abstract      = {
+    We provide a unifying framework for {\(\mathcal L_2\)}-optimal
+    reduced-order modeling for linear time-invariant dynamical systems and
+    stationary parametric problems. Using parameter-separable forms of the
+    reduced-model quantities, we derive the gradients of the {\(\mathcal L_2\)}
+    cost function with respect to the reduced matrices, which then allows a
+    non-intrusive, data-driven, gradient-based descent algorithm to construct
+    the optimal approximant using only output samples. By choosing an
+    appropriate measure, the framework covers both continuous (Lebesgue) and
+    discrete cost functions. We show the efficacy of the proposed algorithm via
+    various numerical examples. Furthermore, we analyze under what conditions
+    the data-driven approximant can be obtained via projection.
+  },
+  customlinkcode = {https://github.com/pmli/l2-opt-rom-ex},
+  fulltext      = {https://doi.org/10.48550/arXiv.2206.02929},
 }
 
-@Article{MliG23b,
-  author =       "Petar Mlinarić and Serkan Gugercin",
-  title =        "A Unifying Framework for Interpolatory {\(\mathcal
-                 L_2\)}-optimal Reduced-order Modeling",
-  journal =      "SIAM J. Numer. Anal.",
-  year =         "2023",
-  month =        sep,
-  volume =       "61",
-  number =       "5",
-  pages =        "2133--2156",
-  doi =          "10.1137/22M1516920",
-  abstract =     "We develop a unifying framework for interpolatory {\(\mathcal
-                 L_2\)}-optimal reduced-order modeling for a wide classes of
-                 problems ranging from stationary models to parametric dynamical
-                 systems. We first show that the framework naturally covers the
-                 well-known interpolatory necessary conditions for {\(\mathcal
-                 L_2\)}-optimal model order reduction and leads to the
-                 interpolatory conditions for {\(\mathcal H_2 \otimes \mathcal
-                 L_2\)}-optimal model order reduction of
-                 multi-input/multi-output parametric dynamical systems.
-                 Moreover, we derive novel interpolatory optimality conditions
-                 for rational discrete least-squares minimization and for
-                 {\(\mathcal L_2\)}-optimal model order reduction of a class of
-                 parametric stationary models. We show that bitangential Hermite
-                 interpolation appears as the main tool for optimality across
-                 different domains. The theoretical results are illustrated on
-                 two numerical examples.",
-  customlinkcode = "https://github.com/pmli/l2-opt-interp-ex",
-  fulltext =     "https://doi.org/10.48550/arXiv.2209.00714",
+@article{MliG23b,
+  title         = {
+    A Unifying Framework for Interpolatory {\(\mathcal L_2\)}-optimal
+    Reduced-order Modeling
+  },
+  author        = {Petar Mlinarić and Serkan Gugercin},
+  year          = 2023,
+  month         = sep,
+  journal       = {SIAM J. Numer. Anal.},
+  volume        = 61,
+  number        = 5,
+  pages         = {2133--2156},
+  doi           = {10.1137/22M1516920},
+  abstract      = {
+    We develop a unifying framework for interpolatory {\(\mathcal
+    L_2\)}-optimal reduced-order modeling for a wide classes of problems
+    ranging from stationary models to parametric dynamical systems. We first
+    show that the framework naturally covers the well-known interpolatory
+    necessary conditions for {\(\mathcal L_2\)}-optimal model order reduction
+    and leads to the interpolatory conditions for {\(\mathcal H_2 \otimes
+    \mathcal L_2\)}-optimal model order reduction of multi-input/multi-output
+    parametric dynamical systems. Moreover, we derive novel interpolatory
+    optimality conditions for rational discrete least-squares minimization and
+    for {\(\mathcal L_2\)}-optimal model order reduction of a class of
+    parametric stationary models. We show that bitangential Hermite
+    interpolation appears as the main tool for optimality across different
+    domains. The theoretical results are illustrated on two numerical examples.
+  },
+  customlinkcode = {https://github.com/pmli/l2-opt-interp-ex},
+  fulltext      = {https://doi.org/10.48550/arXiv.2209.00714},
 }
 
-@Article{OliMAU26,
-  author =       "Guillaume Olikier and Petar Mlinarić and P.-A. Absil and
-                 André Uschmajew",
-  title =        "The tangent cone to the real determinantal variety: various
-                 expressions and a proof",
-  journal =      "Set-Valued Var. Anal.",
-  year =         "2026",
-  month =        mar,
-  volume =       "34",
-  number =       "8",
-  doi =          "10.1007/s11228-026-00796-4",
-  abstract =     "The set of real matrices of upper-bounded rank is a real
-                 algebraic variety called the real generic determinantal
-                 variety. An explicit description of the tangent cone to that
-                 variety is given in Theorem 3.2 of Schneider and Uschmajew
-                 (SIAM J. Optim. 25(1):622--646, 2015). The present paper shows
-                 that the proof therein is incomplete and provides a proof. It
-                 also reviews equivalent descriptions of the tangent cone to
-                 that variety. Moreover, it shows that the tangent cone and the
-                 algebraic tangent cone to that variety coincide, which is not
-                 true for all real algebraic varieties.",
-  fulltext =     "https://doi.org/10.48550/arXiv.2504.11382",
+@article{OliMAU26,
+  title         = {
+    The tangent cone to the real determinantal variety: various expressions and
+    a proof
+  },
+  author        = {Guillaume Olikier and Petar Mlinarić and P.-A. Absil and André Uschmajew},
+  year          = 2026,
+  month         = mar,
+  journal       = {Set-Valued Var. Anal.},
+  volume        = 34,
+  number        = 8,
+  doi           = {10.1007/s11228-026-00796-4},
+  abstract      = {
+    The set of real matrices of upper-bounded rank is a real algebraic variety
+    called the real generic determinantal variety. An explicit description of
+    the tangent cone to that variety is given in Theorem 3.2 of Schneider and
+    Uschmajew (SIAM J. Optim. 25(1):622--646, 2015). The present paper shows
+    that the proof therein is incomplete and provides a proof. It also reviews
+    equivalent descriptions of the tangent cone to that variety. Moreover, it
+    shows that the tangent cone and the algebraic tangent cone to that variety
+    coincide, which is not true for all real algebraic varieties.
+  },
+  fulltext      = {https://doi.org/10.48550/arXiv.2504.11382},
 }
