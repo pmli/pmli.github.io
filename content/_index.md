@@ -13,7 +13,7 @@ profiles:
     url: https://scholar.google.com/citations?user=bcgJ5XsAAAAJ
   - name: LinkedIn
     url: https://www.linkedin.com/in/petar-mlinaric/
-  - name: ORCiD
+  - name: ORCID
     url: https://orcid.org/0000-0002-9437-7698
 ---
 
