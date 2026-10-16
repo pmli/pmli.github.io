@@ -1,0 +1,22 @@
+{{- /*
+  Table of contents from the page's Markdown headings (h2, with h3 nested).
+  Enabled with `toc: true` in front matter.
+*/ -}}
+<nav class="toc" aria-label="Contents">
+  <ul>
+    {{- range .Fragments.Headings }}
+      {{- range .Headings }}
+    <li>
+      <a href="#{{ .ID }}">{{ .Title }}</a>
+      {{- with .Headings }}
+      <ul>
+        {{- range . }}
+        <li><a href="#{{ .ID }}">{{ .Title }}</a></li>
+        {{- end }}
+      </ul>
+      {{- end }}
+    </li>
+      {{- end }}
+    {{- end }}
+  </ul>
+</nav>

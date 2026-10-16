@@ -2,6 +2,7 @@
 title: Travels
 description: >-
   Conferences, research visits, and schools attended by Petar Mlinarić.
+toc: true
 ---
 
 ## Conferences

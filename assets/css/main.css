@@ -179,6 +179,34 @@ pre {
   font-size: 1.1em;
 }
 
+/* Table of contents: sections stacked, their subsections on one line */
+
+.toc {
+  margin: 0 0 2rem;
+  padding: 0.25rem 0 0.25rem 1rem;
+  border-left: 3px solid var(--rule);
+}
+
+.toc ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.toc li {
+  margin: 0.15rem 0;
+}
+
+.toc li > ul {
+  display: inline;
+  margin-left: 0.5rem;
+}
+
+.toc li > ul > li {
+  display: inline;
+  margin-right: 0.5rem;
+}
+
 /* Publications */
 
 .publications {

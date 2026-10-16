@@ -3,6 +3,7 @@ title: Publications
 description: >-
   Publications of Petar Mlinarić: preprints, journal articles,
   conference proceedings, book chapters, and thesis.
+toc: true
 ---
 
 ## Preprints
