@@ -19,6 +19,7 @@ from pathlib import Path
 
 from pybtex.database import BibliographyData, Entry
 from pybtex.database.input.bibtex import Parser
+from pybtex.database.output.bibtex import Writer as BibTeXWriter
 from pybtex.markup import LaTeXParser
 from pybtex.style.formatting.unsrt import Style as UnsrtStyle
 from pybtex.style.template import tag
@@ -30,6 +31,20 @@ HIGHLIGHT_AUTHORS = ["Petar Mlinarić"]
 CUSTOM_LINK_PREFIX = "customlink"
 
 MATH_RE = re.compile(r"\\\((.+?)\\\)", re.DOTALL)
+MONTHS = [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct",
+    "nov",
+    "dec",
+]
 
 
 class Style(UnsrtStyle):
@@ -37,6 +52,24 @@ class Style(UnsrtStyle):
 
     def format_title(self, e, which_field, as_sentence=True):
         return tag("strong")[super().format_title(e, which_field, as_sentence)]
+
+
+class Writer(BibTeXWriter):
+    """BibTeX writer that outputs fields as written.
+
+    Parsed fields are already LaTeX, so the default encoding would escape them
+    again (e.g., `_` becomes `\\_`, breaking DOIs and math).
+    """
+
+    def _encode(self, text):
+        return text
+
+
+def date_key(entry):
+    """Sort key (year, month); month is 0 if missing or unrecognized."""
+    month = entry.fields.get("month", "").strip().lower()
+    month_num = MONTHS.index(month[:3]) + 1 if month[:3] in MONTHS else 0
+    return int(entry.fields["year"]), month_num
 
 
 def unescape_math(s):
@@ -90,7 +123,7 @@ def convert_entry(style, key, entry):
         and not name.lower().startswith(CUSTOM_LINK_PREFIX)
     }
     public_entry = Entry(entry.type, public_fields, entry.persons)
-    bibtex = BibliographyData({key: public_entry}).to_string("bibtex").strip()
+    bibtex = Writer().to_string(BibliographyData({key: public_entry})).strip()
 
     return {
         "key": key,
@@ -103,10 +136,8 @@ def convert_entry(style, key, entry):
 
 def convert_file(style, path):
     entries = Parser().parse_file(str(path)).entries
-    # Newest first; entries from the same year keep their order in the file.
-    items = sorted(
-        entries.items(), key=lambda item: item[1].fields["year"], reverse=True
-    )
+    # Newest first by year and month (bibtex-tidy sorts the files by key).
+    items = sorted(entries.items(), key=lambda item: date_key(item[1]), reverse=True)
     return [
         {
             "year": year,

@@ -26,5 +26,5 @@ Rerun `scripts/bib2json.py` after editing a `.bib` file.
 
 ## Deployment
 
-Pushing to `src` builds the site and deploys it to GitHub Pages
+Pushing to `main` builds the site and deploys it to GitHub Pages
 (`.github/workflows/main.yml`).
