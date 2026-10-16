@@ -2,9 +2,23 @@
 description: >-
   Assistant professor of mathematics at the University of Zagreb,
   working on model order reduction.
+job_title: Assistant Professor
+works_for:
+  name: Department of Mathematics, Faculty of Science, University of Zagreb
+  url: https://www.pmf.unizg.hr/math/en
+profiles:
+  - name: GitHub
+    url: https://github.com/pmli
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?user=bcgJ5XsAAAAJ
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/petar-mlinaric/
+  - name: ORCiD
+    url: https://orcid.org/0000-0002-9437-7698
 ---
 
-<img class="portrait" src="/images/mlinaric.jpg" alt="Petar Mlinarić">
+<img class="portrait" src="/images/mlinaric.jpg" alt="Petar Mlinarić"
+     width="500" height="500">
 
 I am an assistant professor at the
 [University of Zagreb](https://www.unizg.hr/homepage/)
@@ -18,7 +32,7 @@ and a postdoc and a PhD student at
 [MPI Magdeburg](https://www.mpi-magdeburg.mpg.de/2316/en)
 ([CSC group](https://www.mpi-magdeburg.mpg.de/csc)).
 My research is in the area of
-[model order reduction](http://modelreduction.org),
+[model order reduction](https://modelreduction.org),
 and I am one of the main developers of [pyMOR](https://pymor.org).
 
 ## Contact Info
@@ -27,10 +41,7 @@ My work email is: petar *dot* mlinaric *at* math *dot* hr.
 
 ## Public Profiles
 
-- [GitHub](https://github.com/pmli)
-- [Google Scholar](https://scholar.google.com/citations?&user=bcgJ5XsAAAAJ)
-- [LinkedIn](https://www.linkedin.com/in/petar-mlinaric/)
-- [ORCiD](https://orcid.org/0000-0002-9437-7698)
+{{< profiles >}}
 
 ## Curriculum Vitae
 

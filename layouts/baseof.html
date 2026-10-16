@@ -7,7 +7,18 @@
   <meta name="description" content="{{ or .Description site.Params.description }}">
   <meta name="author" content="{{ site.Params.author }}">
   <meta name="theme-color" content="{{ site.Params.themeColor }}">
+  <link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="32x32">
+  <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}">
+  {{- if eq .Kind "404" }}
+  <meta name="robots" content="noindex">
+  {{- else }}
   <link rel="canonical" href="{{ .Permalink }}">
+  {{- partial "opengraph.html" . }}
+  {{- end }}
+  {{- if .IsHome }}
+  {{- partial "person-schema.html" . }}
+  {{- end }}
   {{- with resources.Get "css/main.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
   {{- end }}

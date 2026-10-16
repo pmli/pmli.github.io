@@ -1,0 +1,17 @@
+---
+name: Lint
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  prek:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v7
+      - name: Run pre-commit hooks
+        uses: j178/prek-action@v3

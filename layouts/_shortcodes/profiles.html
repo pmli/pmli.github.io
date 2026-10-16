@@ -1,0 +1,10 @@
+{{- /*
+  Render the page's `profiles` front matter (list of name and url) as links.
+  The same list feeds sameAs in _partials/person-schema.html.
+  Usage: {{< profiles >}}
+*/ -}}
+<ul>
+  {{- range .Page.Params.profiles }}
+  <li><a href="{{ .url }}">{{ .name }}</a></li>
+  {{- end }}
+</ul>

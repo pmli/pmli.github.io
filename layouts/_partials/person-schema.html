@@ -1,0 +1,28 @@
+{{- /*
+  Schema.org Person as JSON-LD, from the home page front matter
+  (job_title, works_for, profiles) and site params (author, images).
+*/ -}}
+{{- $schema := dict
+  "@context" "https://schema.org"
+  "@type" "Person"
+  "name" site.Params.author
+  "url" .Permalink
+  "description" .Description
+}}
+{{- with .Params.job_title }}
+  {{- $schema = merge $schema (dict "jobTitle" .) }}
+{{- end }}
+{{- with .Params.works_for }}
+  {{- $schema = merge $schema (dict "worksFor" (dict "@type" "Organization" "name" .name "url" .url)) }}
+{{- end }}
+{{- with site.Params.images }}
+  {{- $schema = merge $schema (dict "image" (index . 0 | absURL)) }}
+{{- end }}
+{{- with .Params.profiles }}
+  {{- $sameAs := slice }}
+  {{- range . }}
+    {{- $sameAs = $sameAs | append .url }}
+  {{- end }}
+  {{- $schema = merge $schema (dict "sameAs" $sameAs) }}
+{{- end }}
+<script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>

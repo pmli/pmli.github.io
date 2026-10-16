@@ -26,6 +26,7 @@ weight = 20
 [params]
 author = "Petar Mlinarić"
 description = "Personal website of Petar Mlinarić"
+images = ["images/mlinaric.jpg"]
 license = "MIT License"
 licenseURL = "https://spdx.org/licenses/MIT.html"
 themeColor = "#5670d4"

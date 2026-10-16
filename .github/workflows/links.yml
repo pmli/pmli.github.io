@@ -1,0 +1,24 @@
+---
+name: Check links
+on:
+  schedule:
+    - cron: 0 6 1 * *
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks the deployed pages.
+      # 403, 429, and 999 (LinkedIn) are usually bot blocking, not dead links.
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --accept 200..=299,403,429,999
+            --exclude ^https://web\.archive\.org/
+            https://pmli.github.io/
+            https://pmli.github.io/publications/
+            https://pmli.github.io/travels/

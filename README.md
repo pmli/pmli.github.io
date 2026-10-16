@@ -16,8 +16,13 @@ Besides the standard BibTeX fields, entries can have `abstract`, `fulltext`
 
 ## Local preview
 
+CI uses the Python version in `.python-version` and the Hugo version in
+`.github/workflows/main.yml` (`HUGO_VERSION`).
+
 ```sh
-pip install -r requirements.txt
+uv venv  # creates .venv with the Python from .python-version
+source .venv/bin/activate
+uv pip install -r requirements.txt
 python scripts/bib2json.py
 hugo server
 ```
@@ -28,3 +33,5 @@ Rerun `scripts/bib2json.py` after editing a `.bib` file.
 
 Pushing to `main` builds the site and deploys it to GitHub Pages
 (`.github/workflows/main.yml`).
+Other workflows run the pre-commit hooks with prek (`lint.yml`)
+and check for dead links monthly (`links.yml`).
