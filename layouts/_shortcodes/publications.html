@@ -4,11 +4,11 @@
   which scripts/bib2json.py generates from bib/journal.bib.
 */ -}}
 {{- $name := .Get 0 }}
-{{- $groups := index hugo.Data "publications" $name }}
-{{- if not $groups }}
+{{- $data := index hugo.Data "publications" $name }}
+{{- if not $data }}
   {{- errorf "No publication data for %q (%s). Run `python scripts/bib2json.py` first." $name .Position }}
 {{- end }}
-{{- range $groups }}
+{{- range $data.years }}
 <h3 id="{{ $name }}-{{ .year }}">{{ .year }}</h3>
 <ul class="publications">
   {{- range $entry := .entries }}

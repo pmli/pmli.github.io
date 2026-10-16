@@ -1,0 +1,14 @@
+{{- /* Like Hugo's built-in sitemap, but with dates from _partials/lastmod.html. */ -}}
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {{- range where .Pages "Sitemap.Disable" "ne" true }}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    {{- with partial "lastmod.html" . }}
+    {{- if not .IsZero }}
+    <lastmod>{{ .Format "2006-01-02T15:04:05-07:00" | safeHTML }}</lastmod>
+    {{- end }}
+    {{- end }}
+  </url>
+  {{- end }}
+</urlset>

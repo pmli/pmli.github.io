@@ -1,5 +1,6 @@
 baseURL = "https://pmli.github.io/"
 disableKinds = ["rss", "section", "taxonomy", "term"]
+enableGitInfo = true
 enableRobotsTXT = true
 locale = "en"
 title = "Petar Mlinarić"

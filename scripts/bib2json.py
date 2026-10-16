@@ -1,7 +1,8 @@
 """Convert bib/*.bib into data/publications/*.json for the Hugo site.
 
-Each BibTeX file becomes one JSON file: a list of year groups (newest first),
-each holding formatted entries for layouts/_shortcodes/publications.html.
+Each BibTeX file becomes one JSON file with the date of the last commit that
+changed it ("lastmod", used in the sitemap) and a list of year groups ("years",
+newest first) holding formatted entries for layouts/_shortcodes/publications.html.
 
 Website-only BibTeX fields:
     abstract       shown in a collapsible block
@@ -13,6 +14,7 @@ They are dropped from the BibTeX shown on the page.
 import html
 import json
 import re
+import subprocess
 import sys
 from itertools import groupby
 from pathlib import Path
@@ -70,6 +72,21 @@ def date_key(entry):
     month = entry.fields.get("month", "").strip().lower()
     month_num = MONTHS.index(month[:3]) + 1 if month[:3] in MONTHS else 0
     return int(entry.fields["year"]), month_num
+
+
+def git_lastmod(path):
+    """Date of the last commit that changed `path` (None if unavailable)."""
+    try:
+        result = subprocess.run(
+            ["git", "log", "-1", "--format=%cI", "--", str(path)],
+            cwd=ROOT,
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+    except (OSError, subprocess.CalledProcessError):
+        return None
+    return result.stdout.strip() or None
 
 
 def unescape_math(s):
@@ -160,9 +177,10 @@ def main():
     style = Style()
     for path in bib_files:
         groups = convert_file(style, path)
+        data = {"lastmod": git_lastmod(path), "years": groups}
         out = OUT_DIR / f"{path.stem}.json"
         out.write_text(
-            json.dumps(groups, ensure_ascii=False, indent=1) + "\n", encoding="utf-8"
+            json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8"
         )
         count = sum(len(g["entries"]) for g in groups)
         print(f"{path.relative_to(ROOT)} -> {out.relative_to(ROOT)} ({count} entries)")

@@ -1,0 +1,16 @@
+{{- /*
+  Last modification time of a page: its git date (enableGitInfo), or, for pages
+  listing publications, the last commit to bib/*.bib if that is newer.
+*/ -}}
+{{- $lastmod := .Lastmod }}
+{{- if .HasShortcode "publications" }}
+  {{- range hugo.Data.publications }}
+    {{- with .lastmod }}
+      {{- $t := time . }}
+      {{- if $t.After $lastmod }}
+        {{- $lastmod = $t }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- return $lastmod }}
