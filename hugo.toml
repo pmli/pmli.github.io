@@ -1,5 +1,6 @@
 baseURL = "https://pmli.github.io/"
 disableKinds = ["rss", "section", "taxonomy", "term"]
+enableRobotsTXT = true
 locale = "en"
 title = "Petar Mlinarić"
 
@@ -22,6 +23,16 @@ weight = 10
 name = "Travels"
 pageRef = "/travels"
 weight = 20
+
+# Defining an assets mount replaces the default one, so it is listed too.
+# static/images is also mounted so the portrait shortcode can resize it.
+[[module.mounts]]
+source = "assets"
+target = "assets"
+
+[[module.mounts]]
+source = "static/images"
+target = "assets/images"
 
 [params]
 author = "Petar Mlinarić"

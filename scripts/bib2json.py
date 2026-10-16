@@ -91,6 +91,11 @@ def text_to_html(s):
     return "".join(parts)
 
 
+def latex_to_html(s):
+    """Convert a LaTeX field value to HTML, keeping \\( ... \\) for KaTeX."""
+    return text_to_html(" ".join(str(LaTeXParser(s).parse()).split()))
+
+
 def highlight(ref, author):
     """Make the first occurrence of `author` bold (pybtex may use &nbsp;)."""
     pattern = r"(?:\s|&nbsp;)+".join(map(re.escape, author.split()))
@@ -111,10 +116,7 @@ def convert_entry(style, key, entry):
         if name.lower().startswith(CUSTOM_LINK_PREFIX):
             links.append({"label": name[len(CUSTOM_LINK_PREFIX) :], "url": value})
 
-    abstract = ""
-    if "abstract" in fields:
-        abstract = str(LaTeXParser(fields["abstract"]).parse())
-        abstract = text_to_html(" ".join(abstract.split()))
+    abstract = latex_to_html(fields["abstract"]) if "abstract" in fields else ""
 
     public_fields = {
         name: value
@@ -127,6 +129,7 @@ def convert_entry(style, key, entry):
 
     return {
         "key": key,
+        "title": latex_to_html(fields["title"]),
         "reference": ref,
         "links": links,
         "abstract": abstract,

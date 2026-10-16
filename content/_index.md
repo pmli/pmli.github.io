@@ -17,8 +17,7 @@ profiles:
     url: https://orcid.org/0000-0002-9437-7698
 ---
 
-<img class="portrait" src="/images/mlinaric.jpg" alt="Petar Mlinarić"
-     width="500" height="500">
+{{< portrait src="images/mlinaric.jpg" alt="Petar Mlinarić" >}}
 
 I am an assistant professor at the
 [University of Zagreb](https://www.unizg.hr/homepage/)

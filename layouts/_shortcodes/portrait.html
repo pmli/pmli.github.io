@@ -1,0 +1,13 @@
+{{- /*
+  Render an image from assets as the floated portrait, resized to WebP.
+  The portrait is 11rem wide, so 352px covers 2x screens.
+  Usage: {{< portrait src="images/mlinaric.jpg" alt="Petar Mlinarić" >}}
+*/ -}}
+{{- $src := .Get "src" }}
+{{- with resources.Get $src }}
+  {{- with .Resize "352x webp q85" }}
+<img class="portrait" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $.Get "alt" }}">
+  {{- end }}
+{{- else }}
+  {{- errorf "Portrait image %q not found in assets: %s" $src .Position }}
+{{- end }}

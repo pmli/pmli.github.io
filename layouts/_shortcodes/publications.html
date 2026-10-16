@@ -11,12 +11,16 @@
 {{- range $groups }}
 <h3 id="{{ $name }}-{{ .year }}">{{ .year }}</h3>
 <ul class="publications">
-  {{- range .entries }}
+  {{- range $entry := .entries }}
   <li id="{{ .key | anchorize }}">
     <p class="reference">{{ partial "math.html" (dict "page" $.Page "text" .reference) }}</p>
     <div class="pub-extra">
-      {{- range .links }}
-      <a href="{{ .url }}">{{ .label }}</a>
+      {{- with .links }}
+        {{- /* Screen readers announce e.g. "full text: <title>". */}}
+        {{- $title := partial "math.html" (dict "page" $.Page "text" $entry.title) }}
+        {{- range . }}
+      <a href="{{ .url }}">{{ .label }}<span class="visually-hidden">: {{ $title }}</span></a>
+        {{- end }}
       {{- end }}
       {{- with .abstract }}
       <details>

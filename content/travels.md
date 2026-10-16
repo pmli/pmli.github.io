@@ -39,7 +39,7 @@ description: >-
 ### 2023
 
 - [**European Conference on Numerical Mathematics and Advanced Applications
-  (ENUMATH 2023)**](https://enumath2023.com/)
+  (ENUMATH 2023)**](https://web.archive.org/web/20230928210305/https://enumath2023.com/)
     - September 4-8, Lisbon, Portugal
     - *Parametric Reduced-order Modeling via Nonlinear Least Squares*
 - [**25th Conference of the International Linear Algebra Society (ILAS 2023)**](https://web.archive.org/web/20230523124816/https://ilas2023.es/)
@@ -68,7 +68,7 @@ description: >-
 - [**11th Conference on Applied Mathematics and Scientific Computing (ApplMath22)**](https://applmath.math.pmf.unizg.hr/2022/#/)
     - September 5-9, Brijuni, Croatia
     - *Iterative Rational Krylov Algorithm and Riemannian Optimization*
-- [**EuroSciPy 2022**](https://www.euroscipy.org/2022/)
+- [**EuroSciPy 2022**](https://archive.euroscipy.org/2022/)
     - August 29 - September 2, Basel, Switzerland
 - [**SciPy 2022**](https://www.scipy2022.scipy.org/)
     - July 11-17, Austin, Texas, USA
@@ -111,7 +111,7 @@ description: >-
 
 ### 2019
 
-- [**EuroSciPy 2019**](https://www.euroscipy.org/2019/)
+- [**EuroSciPy 2019**](https://archive.euroscipy.org/2019/)
     - September 2-6, Bilbao, Spain
     - *pyMOR lightning talk*
 - [**4th Workshop on Model Reduction of Complex Dynamical Systems (MODRED 2019)**](https://imsc.uni-graz.at/modred2019/index.html)
