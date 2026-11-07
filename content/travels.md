@@ -9,6 +9,9 @@ toc: true
 
 ### 2026
 
+- [**Model Reduction and Surrogate Modeling (MORe 2026)**](https://more2026.sciencesconf.org/)
+    - November 2-6, Milan, Italy
+    - *Optimization over Rational Functions of Bounded Degree*
 - [**13th Conference on Applied Mathematics and Scientific Computing (ApplMath26)**](https://applmath.math.pmf.unizg.hr/2026/#/)
     - September 21-25, Dubrovnik, Croatia
     - *Optimal Localized Damping for the 1D Wave Equation*
