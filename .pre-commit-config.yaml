@@ -22,7 +22,7 @@ repos:
       - id: mixed-line-ending
       - id: trailing-whitespace
   - repo: https://github.com/DavidAnson/markdownlint-cli2
-    rev: v0.23.3
+    rev: v0.24.2
     hooks:
       - id: markdownlint-cli2
         # args: [--fix]
@@ -31,11 +31,11 @@ repos:
     hooks:
       - id: yamlfix
   - repo: https://github.com/pappasam/toml-sort
-    rev: v0.25.0
+    rev: v0.26.0
     hooks:
       - id: toml-sort-fix
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.17.1
+    rev: v0.17.6
     hooks:
       - id: ruff
         args: [--fix, --exit-non-zero-on-fix]
@@ -44,6 +44,9 @@ repos:
     rev: v1.14.0
     hooks:
       - id: bibtex-tidy
+        # upstream uses `language: script` (needs a system `node`); use prek-managed node instead
+        language: node
+        entry: bibtex-tidy --modify
         args:
           - --curly
           - --numeric
